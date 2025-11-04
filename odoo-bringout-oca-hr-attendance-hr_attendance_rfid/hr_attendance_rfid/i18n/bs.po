@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: hr_attendance_rfid
 #. odoo-python
-#: code:addons/hr_attendance_rfid/models/hr_employee.py:0
+#: code:addons/hr_attendance_rfid/models/hr_employee.py
 #, python-format
 msgid "Attendance recorded for employee %s"
 msgstr "Evidencija zabilježena za zaposlenika %s"
@@ -27,14 +27,14 @@ msgstr "Obični zaposlenik"
 
 #. module: hr_attendance_rfid
 #. odoo-python
-#: code:addons/hr_attendance_rfid/models/hr_employee.py:0
+#: code:addons/hr_attendance_rfid/models/hr_employee.py
 #, python-format
 msgid "No attendance was recorded for employee %s"
 msgstr "Nema zabilježene evidencije za zaposlenika %s"
 
 #. module: hr_attendance_rfid
 #. odoo-python
-#: code:addons/hr_attendance_rfid/models/hr_employee.py:0
+#: code:addons/hr_attendance_rfid/models/hr_employee.py
 #, python-format
 msgid "No employee found with card %s"
 msgstr "Nema pronađenog zaposlenika s karticom %s"
@@ -46,14 +46,10 @@ msgstr "RFID evidencija"
 
 #. module: hr_attendance_rfid
 #: model:ir.model.fields,field_description:hr_attendance_rfid.field_hr_employee__rfid_card_code
-#: model:ir.model.fields,field_description:hr_attendance_rfid.field_hr_employee_base__rfid_card_code
-#: model:ir.model.fields,field_description:hr_attendance_rfid.field_hr_employee_public__rfid_card_code
 msgid "RFID Card Code"
 msgstr "RFID kod kartice"
 
 #. module: hr_attendance_rfid
 #: model:ir.model.constraint,message:hr_attendance_rfid.constraint_hr_employee_base_rfid_card_code_uniq
-#: model:ir.model.constraint,message:hr_attendance_rfid.constraint_hr_employee_public_rfid_card_code_uniq
-#: model:ir.model.constraint,message:hr_attendance_rfid.constraint_hr_employee_rfid_card_code_uniq
 msgid "The rfid code should be unique."
 msgstr "RFID kod treba biti jedinstven."

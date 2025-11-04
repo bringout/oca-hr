@@ -20,7 +20,6 @@ msgstr "Aktivan"
 
 #. module: hr_professional_category
 #: model_terms:ir.ui.view,arch_db:hr_professional_category.hr_professional_category_tree_view_form
-#: model_terms:ir.ui.view,arch_db:hr_professional_category.hr_professional_category_view_search
 msgid "Archived"
 msgstr "Arhivirano"
 
@@ -91,8 +90,5 @@ msgstr "Profesionalne kategorije"
 
 #. module: hr_professional_category
 #: model:ir.actions.act_window,name:hr_professional_category.hr_professional_category_action
-#: model:ir.model,name:hr_professional_category.model_hr_professional_category
-#: model:ir.model.fields,field_description:hr_professional_category.field_hr_contract__professional_category_id
-#: model_terms:ir.ui.view,arch_db:hr_professional_category.hr_contract_view_search
 msgid "Professional Category"
 msgstr "Profesionalna kategorija"

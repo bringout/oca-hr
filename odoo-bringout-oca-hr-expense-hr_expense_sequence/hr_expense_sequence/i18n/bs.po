@@ -13,11 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: hr_expense_sequence
 #: model:ir.model,name:hr_expense_sequence.model_hr_expense_sheet
 msgid "Expense Report"
 msgstr "Izvještaj troškova"
 
+# taken from hr.po
 #. module: hr_expense_sequence
 #: model:ir.model.fields,field_description:hr_expense_sequence.field_hr_expense_sheet__number
 msgid "Number"

@@ -13,30 +13,33 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__age
 msgid "Age"
 msgstr "Dob"
 
+# taken from hr.po
 #. module: hr_employee_relative
 #: model:hr.employee.relative.relation,name:hr_employee_relative.relation_child
 msgid "Child"
 msgstr "Djete"
 
+# taken from hr.po
 #. module: hr_employee_relative
 #: model:hr.employee.relative.relation,name:hr_employee_relative.relation_cousin
 msgid "Cousin"
 msgstr "Rođak"
 
+# taken from hr.po
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__create_uid
-#: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative_relation__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
+# taken from hr.po
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__create_date
-#: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative_relation__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -45,38 +48,43 @@ msgstr "Kreirano"
 msgid "Date Of Birth"
 msgstr "Datum rođenja"
 
+# taken from hr.po
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__display_name
-#: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative_relation__display_name
 msgid "Display Name"
 msgstr "Naziv"
 
+# taken from hr.po
 #. module: hr_employee_relative
 #: model:ir.model,name:hr_employee_relative.model_hr_employee
-#: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__employee_id
 msgid "Employee"
 msgstr "Djelatnik"
 
+# taken from hr.po
 #. module: hr_employee_relative
 #: model:ir.model.fields.selection,name:hr_employee_relative.selection__hr_employee_relative__gender__female
 msgid "Female"
 msgstr "Žensko"
 
+# taken from hr.po
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__gender
 msgid "Gender"
 msgstr "Spol"
 
+# taken from hr.po
 #. module: hr_employee_relative
 #: model:hr.employee.relative.relation,name:hr_employee_relative.relation_grandchild
 msgid "Grandchild"
 msgstr "Unuk"
 
+# taken from hr.po
 #. module: hr_employee_relative
 #: model:hr.employee.relative.relation,name:hr_employee_relative.relation_grandparent
 msgid "Grandparent"
 msgstr "Pra roditelj"
 
+# taken from hr.po
 #. module: hr_employee_relative
 #: model:ir.model,name:hr_employee_relative.model_hr_employee_relative
 msgid "HR Employee Relative"
@@ -89,7 +97,6 @@ msgstr "HR odnos rodbine radnika"
 
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__id
-#: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative_relation__id
 msgid "ID"
 msgstr "ID"
 
@@ -100,19 +107,16 @@ msgstr "Zadatak"
 
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative____last_update
-#: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative_relation____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__write_uid
-#: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative_relation__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__write_date
-#: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative_relation__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -153,7 +157,6 @@ msgstr "Broj telefona"
 
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__relation_id
-#: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative_relation__name
 msgid "Relation"
 msgstr "Odnos"
 

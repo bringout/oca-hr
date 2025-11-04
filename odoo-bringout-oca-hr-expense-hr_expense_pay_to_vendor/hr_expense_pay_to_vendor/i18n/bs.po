@@ -25,19 +25,17 @@ msgstr "Izvještaj troška"
 
 #. module: hr_expense_pay_to_vendor
 #. odoo-python
-#: code:addons/hr_expense_pay_to_vendor/models/hr_expense.py:0
+#: code:addons/hr_expense_pay_to_vendor/models/hr_expense.py
 #, python-format
 msgid "Expenses must be paying to the same vendor."
 msgstr "Troškovi se moraju plaćati istom dobavljaču."
 
 #. module: hr_expense_pay_to_vendor
 #: model:ir.model.fields,help:hr_expense_pay_to_vendor.field_hr_expense__vendor_id
-#: model:ir.model.fields,help:hr_expense_pay_to_vendor.field_hr_expense_sheet__vendor_id
 msgid "Paid by company direct to this vendor"
 msgstr "Plaća kompanija direktno ovom dobavljaču"
 
 #. module: hr_expense_pay_to_vendor
 #: model:ir.model.fields,field_description:hr_expense_pay_to_vendor.field_hr_expense__vendor_id
-#: model:ir.model.fields,field_description:hr_expense_pay_to_vendor.field_hr_expense_sheet__vendor_id
 msgid "To Vendor"
 msgstr "Za dobavljača"

@@ -40,7 +40,6 @@ msgstr "Analiza evidencija"
 
 #. module: hr_attendance_report_theoretical_time
 #: model_terms:ir.ui.view,arch_db:hr_attendance_report_theoretical_time.recompute_theoretical_attendance_form
-#: model_terms:ir.ui.view,arch_db:hr_attendance_report_theoretical_time.wizard_theoretical_time_form_view
 msgid "Cancel"
 msgstr "Otkaži"
 
@@ -51,13 +50,11 @@ msgstr "Preduzeće"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__create_uid
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__create_uid
 msgid "Created by"
 msgstr "Kreirao"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__create_date
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__create_date
 msgid "Created on"
 msgstr "Kreirano"
 
@@ -78,7 +75,6 @@ msgstr "Datum"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__department_id
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__department_id
 msgid "Department"
 msgstr "Odjeljenje"
 
@@ -89,33 +85,30 @@ msgstr "Razlika"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__display_name
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__display_name
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__display_name
 msgid "Display Name"
 msgstr "Prikazani naziv"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model,name:hr_attendance_report_theoretical_time.model_hr_employee
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__employee_id
 msgid "Employee"
 msgstr "Zaposleni"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__employee_ids
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__employee_ids
-#: model_terms:ir.ui.view,arch_db:hr_attendance_report_theoretical_time.wizard_theoretical_time_form_view
 msgid "Employees"
 msgstr "Zaposleni"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,help:hr_attendance_report_theoretical_time.field_hr_employee__theoretical_hours_start_date
-#: model:ir.model.fields,help:hr_attendance_report_theoretical_time.field_hr_employee_public__theoretical_hours_start_date
 msgid ""
 "Fill this field for setting a manual start date for computing the "
 "theoretical hours independently from the attendances. If not filled, "
 "employee creation date or the calendar start date will be used (the greatest"
 " of both)."
 msgstr ""
+"Ispunite ovo polje za postavljanje ručnog početnog datuma za računanje "
+"teorijskih sati neovisno o evidencijama. Ako nije ispunjeno, datum stvaranja"
+" zaposlenika ili datum početka kalendara će se koristiti (veći od oba)."
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model,name:hr_attendance_report_theoretical_time.model_wizard_theoretical_time
@@ -134,8 +127,6 @@ msgstr "Od"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report__id
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__id
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__id
 msgid "ID"
 msgstr "ID"
 
@@ -145,6 +136,8 @@ msgid ""
 "If you check this mark, leaves in this category won't reduce the number of "
 "theoretical hours in the attendance report."
 msgstr ""
+"Ako označite ovu oznaku, godišnji odmori u ovoj kategoriji neće smanjiti "
+"broj teorijskih sati u izvještaju evidencije."
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_leave_type__include_in_theoretical
@@ -153,20 +146,16 @@ msgstr "Uključi u teorijske sate"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_theoretical_time_report____last_update
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance____last_update
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time____last_update
 msgid "Last Modified on"
 msgstr "Zadnje mijenjano"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__write_uid
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__write_uid
 msgid "Last Updated by"
 msgstr "Zadnji ažurirao"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_recompute_theoretical_attendance__write_date
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_wizard_theoretical_time__write_date
 msgid "Last Updated on"
 msgstr "Zadnje ažurirano"
 
@@ -212,7 +201,6 @@ msgstr "Preračunaj teorijske evidencije"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.actions.act_window,name:hr_attendance_report_theoretical_time.act_wizard_recompute_theoretical_attendance
-#: model:ir.ui.menu,name:hr_attendance_report_theoretical_time.menu_recompute_theoretical_attendance
 msgid "Recompute Theoretical Attendances"
 msgstr "Preračunaj teorijske evidencije"
 
@@ -243,8 +231,7 @@ msgstr "Odaberi zaposlenike"
 
 #. module: hr_attendance_report_theoretical_time
 #. odoo-python
-#: code:addons/hr_attendance_report_theoretical_time/wizards/wizard_theoretical_time.py:0
-#: model:ir.actions.act_window,name:hr_attendance_report_theoretical_time.wizard_theoretical_time_act_window
+#: code:addons/hr_attendance_report_theoretical_time/wizards/wizard_theoretical_time.py
 #, python-format
 msgid "Select Employees to Analyze Theoretical Time"
 msgstr "Odaberi zaposlenike za analizu teorijskog vremena"
@@ -256,13 +243,11 @@ msgstr "Oznaka"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance__theoretical_hours
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_attendance_report__theoretical_hours
 msgid "Theoretical Hours"
 msgstr "Teorijski sati"
 
 #. module: hr_attendance_report_theoretical_time
 #: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_employee__theoretical_hours_start_date
-#: model:ir.model.fields,field_description:hr_attendance_report_theoretical_time.field_hr_employee_public__theoretical_hours_start_date
 msgid "Theoretical Hours Start Date"
 msgstr "Početni datum teorijskih sati"
 

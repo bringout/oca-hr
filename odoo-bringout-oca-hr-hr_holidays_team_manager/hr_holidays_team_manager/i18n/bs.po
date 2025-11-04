@@ -20,7 +20,7 @@ msgstr "Obični zaposlenik"
 
 #. module: hr_holidays_team_manager
 #. odoo-python
-#: code:addons/hr_holidays_team_manager/models/hr_leave_allocation.py:0
+#: code:addons/hr_holidays_team_manager/models/hr_leave_allocation.py
 #, python-format
 msgid "Team managers can't approve time off allocations"
 msgstr "Menadžeri timova ne mogu odobriti raspodjele slobodnih dana"

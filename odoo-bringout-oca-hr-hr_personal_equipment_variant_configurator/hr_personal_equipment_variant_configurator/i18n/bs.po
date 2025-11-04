@@ -39,6 +39,9 @@ msgid ""
 "Price Extra: Extra price for the variant with the currently selected "
 "attributes values on sale price. eg. 200 price extra, 1000 + 200 = 1200."
 msgstr ""
+"Dodatna cijena: Dodatna cijena za varijantu sa trenutno odabranim "
+"vrijednostima atributa na prodajnoj cijeni. npr. 200 dodatno, 1000 + 200 = "
+"1200."
 
 #. module: hr_personal_equipment_variant_configurator
 #: model:ir.model.fields,field_description:hr_personal_equipment_variant_configurator.field_hr_personal_equipment__product_id_configurator_domain

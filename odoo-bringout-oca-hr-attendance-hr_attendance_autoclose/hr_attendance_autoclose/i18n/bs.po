@@ -19,7 +19,10 @@ msgid ""
 "<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
 "specific.\" groups=\"base.group_multi_company\"/>"
 msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Vrijednosti postavljene ovdje"
+" su specifične za kompaniju.\" groups=\"base.group_multi_company\"/>"
 
+# taken from hr.po
 #. module: hr_attendance_autoclose
 #: model:ir.model,name:hr_attendance_autoclose.model_hr_attendance
 msgid "Attendance"
@@ -30,9 +33,9 @@ msgstr "Prisustva"
 msgid "Attendance Autoclosing"
 msgstr "Automatsko zatvaranje evidencije"
 
+# taken from hr.po
 #. module: hr_attendance_autoclose
 #: model:ir.model.fields,field_description:hr_attendance_autoclose.field_res_company__attendance_maximum_hours_per_day
-#: model:ir.model.fields,field_description:hr_attendance_autoclose.field_res_config_settings__attendance_maximum_hours_per_day
 msgid "Attendance Maximum Hours Per Day"
 msgstr "Maksimalan broj sati dnevno"
 
@@ -42,18 +45,21 @@ msgid ""
 "Attendance lines longer than this value will\n"
 "                                    be automatically closed."
 msgstr ""
+"Linije evidencije duže od ove vrijednosti će\n"
+"                                    biti automatski zatvorene."
 
 #. module: hr_attendance_autoclose
 #: model_terms:ir.ui.view,arch_db:hr_attendance_autoclose.res_config_settings_view_form
 msgid "Autoclose Reason"
 msgstr "Razlog automatskog zatvaranja"
 
+# taken from hr.po
 #. module: hr_attendance_autoclose
 #: model:ir.actions.server,name:hr_attendance_autoclose.check_attendance_cron_ir_actions_server
-#: model:ir.cron,cron_name:hr_attendance_autoclose.check_attendance_cron
 msgid "Check Attendance"
 msgstr "Provjeri prisustvo"
 
+# taken from hr.po
 #. module: hr_attendance_autoclose
 #: model:ir.model,name:hr_attendance_autoclose.model_res_company
 msgid "Companies"
@@ -64,11 +70,13 @@ msgstr "Tvrtke"
 msgid "Config Settings"
 msgstr "Postavke"
 
+# taken from hr.po
 #. module: hr_attendance_autoclose
 #: model:ir.model.fields,field_description:hr_attendance_autoclose.field_hr_employee__no_autoclose
 msgid "Don't Autoclose Attendances"
 msgstr "Nemoj automatski odjaviti korisnika"
 
+# taken from hr.po
 #. module: hr_attendance_autoclose
 #: model:ir.model,name:hr_attendance_autoclose.model_hr_employee
 msgid "Employee"
@@ -76,7 +84,6 @@ msgstr "Djelatnik"
 
 #. module: hr_attendance_autoclose
 #: model:ir.model.fields,field_description:hr_attendance_autoclose.field_res_company__hr_attendance_autoclose_reason
-#: model:ir.model.fields,field_description:hr_attendance_autoclose.field_res_config_settings__hr_attendance_autoclose_reason
 msgid "Hr Attendance Autoclose Reason"
 msgstr "Razlog automatskog zatvaranja HR evidencije"
 
@@ -91,7 +98,10 @@ msgid ""
 "This reason will be added to an attendance\n"
 "                                    when it's autoclosed."
 msgstr ""
+"Ovaj razlog će biti dodan evidenciji\n"
+"                                    kada se automatski zatvori."
 
+# taken from hr.po
 #. module: hr_attendance_autoclose
 #: model:ir.model.fields,field_description:hr_attendance_autoclose.field_hr_attendance__open_worked_hours
 msgid "Worked hours"

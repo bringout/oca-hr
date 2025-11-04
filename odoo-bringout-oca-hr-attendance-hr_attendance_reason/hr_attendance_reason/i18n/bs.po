@@ -25,7 +25,6 @@ msgstr "Prisutnost"
 
 #. module: hr_attendance_reason
 #: model:ir.model,name:hr_attendance_reason.model_hr_attendance_reason
-#: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance__attendance_reason_ids
 msgid "Attendance Reason"
 msgstr "Razlog evidencije"
 
@@ -116,17 +115,14 @@ msgstr "Ostavite prazno ako je nezavisan"
 
 #. module: hr_attendance_reason
 #. odoo-javascript
-#: code:addons/hr_attendance_reason/static/src/js/kiosk_confirm.esm.js:0
-#: code:addons/hr_attendance_reason/static/src/js/my_attendances.esm.js:0
+#: code:addons/hr_attendance_reason/static/src/js/kiosk_confirm.esm.js
 #, python-format
 msgid "Please, select a reason"
 msgstr "Molimo odaberite razlog"
 
 #. module: hr_attendance_reason
 #. odoo-javascript
-#: code:addons/hr_attendance_reason/static/src/xml/attendance.xml:0
-#: code:addons/hr_attendance_reason/static/src/xml/attendance.xml:0
-#: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance_reason__name
+#: code:addons/hr_attendance_reason/static/src/xml/attendance.xml
 #, python-format
 msgid "Reason"
 msgstr "Razlog"
@@ -143,11 +139,6 @@ msgstr "Razlozi"
 
 #. module: hr_attendance_reason
 #: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_employee__required_reason_on_attendance_screen
-#: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_employee_base__required_reason_on_attendance_screen
-#: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_employee_public__required_reason_on_attendance_screen
-#: model:ir.model.fields,field_description:hr_attendance_reason.field_res_company__required_reason_on_attendance_screen
-#: model:ir.model.fields,field_description:hr_attendance_reason.field_res_config_settings__required_reason_on_attendance_screen
-#: model_terms:ir.ui.view,arch_db:hr_attendance_reason.res_config_settings_view_form
 msgid "Required reason on attendance screen"
 msgstr "Obavezan razlog na ekranu evidencije"
 
@@ -163,11 +154,6 @@ msgstr "Prikaži na ekranu evidencije?"
 
 #. module: hr_attendance_reason
 #: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_employee__show_reason_on_attendance_screen
-#: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_employee_base__show_reason_on_attendance_screen
-#: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_employee_public__show_reason_on_attendance_screen
-#: model:ir.model.fields,field_description:hr_attendance_reason.field_res_company__show_reason_on_attendance_screen
-#: model:ir.model.fields,field_description:hr_attendance_reason.field_res_config_settings__show_reason_on_attendance_screen
-#: model_terms:ir.ui.view,arch_db:hr_attendance_reason.res_config_settings_view_form
 msgid "Show reasons on attendance screen"
 msgstr "Prikaži razloge na ekranu evidencije"
 
@@ -186,7 +172,7 @@ msgstr "Odjava"
 msgid ""
 "Specifies the reason for signing In/signing Out in case of less or extra "
 "hours."
-msgstr ""
+msgstr "Specificira razlog za prijavu/odjavu u slučaju manjka ili viška sati."
 
 #. module: hr_attendance_reason
 #: model:ir.model.fields,help:hr_attendance_reason.field_hr_attendance_reason__name

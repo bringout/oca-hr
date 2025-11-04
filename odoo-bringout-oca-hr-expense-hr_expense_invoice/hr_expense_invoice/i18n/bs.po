@@ -23,33 +23,37 @@ msgstr "<span>Trošak</span>"
 msgid "Create Vendor Bill"
 msgstr "Kreiraj račun dobavljača"
 
+# taken from hr.po
 #. module: hr_expense_invoice
 #: model:ir.model,name:hr_expense_invoice.model_hr_expense
 msgid "Expense"
 msgstr "Trošak"
 
+# taken from hr.po
 #. module: hr_expense_invoice
 #: model:ir.model,name:hr_expense_invoice.model_hr_expense_sheet
 msgid "Expense Report"
 msgstr "Izvještaj troškova"
 
+# taken from hr.po
 #. module: hr_expense_invoice
 #: model:ir.model.fields,field_description:hr_expense_invoice.field_account_bank_statement_line__expense_ids
-#: model:ir.model.fields,field_description:hr_expense_invoice.field_account_move__expense_ids
-#: model:ir.model.fields,field_description:hr_expense_invoice.field_account_payment__expense_ids
+#, fuzzy
 msgid "Expenses"
 msgstr "Trošak"
 
+# taken from hr.po
 #. module: hr_expense_invoice
 #: model:ir.model.fields,field_description:hr_expense_invoice.field_hr_expense_sheet__invoice_count
+#, fuzzy
 msgid "Invoice Count"
 msgstr "Račun"
 
+# taken from hr.po
 #. module: hr_expense_invoice
 #. odoo-python
-#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
-#: model_terms:ir.ui.view,arch_db:hr_expense_invoice.hr_expense_sheet_form_view_inherit_sale_expense
-#, python-format
+#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py
+#, fuzzy, python-format
 msgid "Invoices"
 msgstr "Račun"
 
@@ -65,12 +69,12 @@ msgstr "Stavka žurnala"
 
 #. module: hr_expense_invoice
 #: model:ir.model.fields,help:hr_expense_invoice.field_account_bank_statement_line__source_invoice_expense_id
-#: model:ir.model.fields,help:hr_expense_invoice.field_account_move__source_invoice_expense_id
-#: model:ir.model.fields,help:hr_expense_invoice.field_account_payment__source_invoice_expense_id
 msgid ""
 "Reference to the expense with a linked invoice that generated thistransfer "
 "journal entry"
 msgstr ""
+"Referenca na trošak sa povezanim računom koji je generirao ovu transfernu "
+"stavku dnevnika"
 
 #. module: hr_expense_invoice
 #: model:ir.model.fields,field_description:hr_expense_invoice.field_hr_expense__sheet_id_state
@@ -79,8 +83,6 @@ msgstr "Status izvještaja"
 
 #. module: hr_expense_invoice
 #: model:ir.model.fields,field_description:hr_expense_invoice.field_account_bank_statement_line__source_invoice_expense_id
-#: model:ir.model.fields,field_description:hr_expense_invoice.field_account_move__source_invoice_expense_id
-#: model:ir.model.fields,field_description:hr_expense_invoice.field_account_payment__source_invoice_expense_id
 msgid "Source Invoice Expense"
 msgstr "Trošak izvornog računa"
 
@@ -96,26 +98,28 @@ msgstr "Ulazni račun"
 
 #. module: hr_expense_invoice
 #. odoo-python
-#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
+#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py
 #, python-format
 msgid ""
 "Vendor bill amount mismatch!\n"
 "Please make sure amount in vendor bills equal to amount of its expense lines"
 msgstr ""
+"Nepodudaranje iznosa računa dobavljača!\n"
+"Molimo uvjerite se da iznos u računima dobavljača odgovara iznosu njihovih linija troškova"
 
 #. module: hr_expense_invoice
 #. odoo-python
-#: code:addons/hr_expense_invoice/models/hr_expense.py:0
-#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
+#: code:addons/hr_expense_invoice/models/hr_expense.py
 #, python-format
 msgid "Vendor bill state must be Posted"
 msgstr "Status računa dobavljača mora biti Knjižen"
 
 #. module: hr_expense_invoice
 #. odoo-python
-#: code:addons/hr_expense_invoice/models/account_move.py:0
+#: code:addons/hr_expense_invoice/models/account_move.py
 #, python-format
 msgid ""
 "You can't change the total amount, as there's an expense linked to this "
 "invoice."
 msgstr ""
+"Ne možete mijenjati ukupan iznos jer postoji trošak povezan sa ovim računom."

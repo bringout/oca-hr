@@ -24,6 +24,12 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
+"<div style=\"background-color:#f2f3f5; padding:20px;\">\n"
+"                    <h2 style=\"color:#4267b2; text-align:center;\">Sretan rođendan, <t t-out=\"object.name\"></t>!</h2>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Još jedno putovanje oko sunca, a ne izgledate ni dan starije! Želimo vam fantastičan dan pun radosti i iznenađenja. Neka vam ova godina donese bliže snove i blagoslovi vas obiljem i radošću. 🎉</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Zapamtite, ne starite, stječete više iskustva. I svake godine postajete vrjedniji član našeg tima. Evo na predivnom rođendanu i godini punoj avanture! 🥳</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Nazdravimo vam na vaš poseban dan, <t t-out=\"object.name\"></t>!</p>\n"
+"                </div>\n"
 
 #. module: hr_employee_birthday_mail
 #: model:mail.template,body_html:hr_employee_birthday_mail.email_template_birthday_3
@@ -37,6 +43,13 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
+"<div style=\"background-color:#f2f3f5; padding:20px;\">\n"
+"                    <h2 style=\"color:#4267b2; text-align:center;\">🎂 Hej, <t t-out=\"object.name\"></t>! To je vaš poseban dan! 🎂</h2>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Rođendani su prirodni način da nam kaže da jedemo više torte i sladoleda. I kako se događa da je vaš rođendan, smatramo da zaslužujete imati koliko god želite!</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Danas ne slavimo samo vaš rođendan. Slavimo vas: neprocjenjivi dio našeg tima, donositelja veselja, rješavatelja problema, zraku sunčevog svijetla u uredu.</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Danas nadamo se da ćete uživati u svim divnim stvarima koje život nudi i provesti ga radeći ono što najviše volite. Zapamtite, danas je o vama i samo o vama. Budite sigurni da ćete uživati u tome do kraja!</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Dakle, odmorite se, opustite i pustite dobre vibracije da se kotrljaju. Sretan rođendan, <t t-out=\"object.name\"></t>! Nadamo se da vam ovaj dan donosi samo radost i sreću. 🥳🎉</p>\n"
+"                </div>\n"
 
 #. module: hr_employee_birthday_mail
 #: model:mail.template,body_html:hr_employee_birthday_mail.email_template_coworkers_3
@@ -51,6 +64,14 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
+"<div style=\"background-color:#f2f3f5; padding:20px;\">\n"
+"                    <h2 style=\"color:#4267b2; text-align:center;\">🎂 Vrijeme je za slavlje: <t t-out=\"ctx['birthday_employee']\"></t> rođendan!</h2>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Pozdrav, <t t-out=\"object.name\"></t>!</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Danas slavimo rođendan cijenjenog člana tima, <b><t t-out=\"ctx['birthday_employee']\"></t></b>. </p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Ovaj dan je poseban, i ohrabrujemo vas da im čestitajte 'Sretan rođendan'. Mali gest može napraviti veliku razliku! </p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Učinimo ovaj dan nezaboravnim za <t t-out=\"ctx['birthday_employee']\"></t>! 🎉🎁</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Zapamtite, naš tim je naša najveća snaga. Hvala što doprinosite ovom divnom radnom okruženju!</p>\n"
+"                </div>\n"
 
 #. module: hr_employee_birthday_mail
 #: model:mail.template,body_html:hr_employee_birthday_mail.email_template_coworkers_1
@@ -64,6 +85,13 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
+"<div style=\"background-color:#f2f3f5; padding:20px;\">\n"
+"                    <h2 style=\"color:#4267b2; text-align:center;\">🎉 Uzbuna rođendana 🎉</h2>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Pozdrav <t t-out=\"object.name\"></t>,</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Nešto se osjeća drugačije danas, zar ne? Ima dodatnog blistanja u zraku i opruge u našim koracima. Pitate se zašto?</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">To je jer je <b><t t-out=\"ctx['birthday_employee']\"></t></b> rođendan! 🎂</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Dakle, pojačajte radost i slavlje u uredu danas. Ne zaboravite im čestitati rođendan i učiniti ovaj dan još posebnijim za njih! 🎈🎁</p>\n"
+"                </div>\n"
 
 #. module: hr_employee_birthday_mail
 #: model:mail.template,body_html:hr_employee_birthday_mail.email_template_coworkers_2
@@ -78,6 +106,14 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
+"<div style=\"background-color:#f2f3f5; padding:20px;\">\n"
+"                    <h2 style=\"color:#4267b2; text-align:center;\">🎉 Uzbuna rođendana: <t t-out=\"ctx['birthday_employee']\"></t> je još godinu mudriji! 🎉</h2>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Hej, <t t-out=\"object.name\"></t>,</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Pogodi što? Imamo sreću da imamo rođendan u našoj sredini danas! Da, to je <b><t t-out=\"ctx['birthday_employee']\"></t></b> veliki dan!</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Odvojite trenutak, kada možete, da im pošaljete svoje dobre želje i doprinesete pozitivnoj atmosferi danas. Zapamtite, čak i jednostavan 'Sretan rođendan' može nekome razveseliti dan!</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Pomozimo svi da se <t t-out=\"ctx['birthday_employee']\"></t> osjeća cijenjeno i vrjedeno na njihov poseban dan! 🎈🎁</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Hvala vam na vašem kontinuiranom naporu u činjenju našeg radnog mjesta podrža vnim i prijateljskim okruženjem!</p>\n"
+"                </div>\n"
 
 #. module: hr_employee_birthday_mail
 #: model:mail.template,body_html:hr_employee_birthday_mail.email_template_birthday_2
@@ -91,10 +127,16 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
+"<div style=\"background-color:#f2f3f5; padding:20px;\">\n"
+"                    <h2 style=\"color:#4267b2; text-align:center;\">🎉 Proslavimo, <t t-out=\"object.name\"></t>! 🎉</h2>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Danas slavimo ne bilo koji rođendan, već VAŠ rođendan: dan kada je uistinu iznimna osoba došla na ovaj svijet.</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Dob je samo broj, a bore su samo mjesta gdje su bili osmjesi. Zapamtite, ne starite, samo postajete klasik!</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Vaš rođendan je posebna prekretnica na ovom putovanju života, i uzbuđeni smo što ga dijelimo s vama. Danas je o slavljenju svega što ste i svega što ćete biti.</p>\n"
+"                    <p style=\"font-size:16px; text-align:center;\">Dakle, evo na vas, <t t-out=\"object.name\"></t>! Želimo vam obilje zabave, radosti i torte na vaš poseban dan. Imajte nezaboravan rođendan! 🥳🎈</p>\n"
+"                </div>\n"
 
 #. module: hr_employee_birthday_mail
 #: model:ir.model.fields,field_description:hr_employee_birthday_mail.field_hr_employee__allow_birthday_wishes
-#: model:ir.model.fields,field_description:hr_employee_birthday_mail.field_res_users__allow_birthday_wishes
 msgid "Allow Birthday Wishes"
 msgstr "Dozvoli rođendanske čestitke"
 
@@ -120,24 +162,25 @@ msgstr "Obavještenja rođendana"
 
 #. module: hr_employee_birthday_mail
 #: model:ir.actions.server,name:hr_employee_birthday_mail.ir_cron_check_employee_birthdays_ir_actions_server
-#: model:ir.cron,cron_name:hr_employee_birthday_mail.ir_cron_check_employee_birthdays
 msgid "Check Employee Birthdays"
 msgstr "Provjeri rođendane zaposlenika"
 
 #. module: hr_employee_birthday_mail
 #: model:ir.model.fields,help:hr_employee_birthday_mail.field_hr_employee__allow_birthday_wishes
-#: model:ir.model.fields,help:hr_employee_birthday_mail.field_res_users__allow_birthday_wishes
 msgid ""
 "Check this box if you want to allow birthday wishes from our company and "
 "allow the others to be notified of your birthday."
 msgstr ""
+"Označite ovaj kvadratić ako želite dozvoliti rođendanske čestitke od naše "
+"tvrtke i dozvoliti drugima da budu obaviješteni o vašem rođendanu."
 
 #. module: hr_employee_birthday_mail
 #: model:ir.model.fields,help:hr_employee_birthday_mail.field_hr_employee__notify_others_birthday
-#: model:ir.model.fields,help:hr_employee_birthday_mail.field_res_users__notify_others_birthday
 msgid ""
 "Check this box if you want to be notified about other coworkers' birthdays."
 msgstr ""
+"Označite ovaj kvadratić ako želite biti obaviješteni o rođendanima drugih "
+"kolega."
 
 #. module: hr_employee_birthday_mail
 #: model:mail.template,name:hr_employee_birthday_mail.email_template_coworkers_1
@@ -161,7 +204,6 @@ msgstr "Zaposleni"
 
 #. module: hr_employee_birthday_mail
 #: model:ir.model.fields,field_description:hr_employee_birthday_mail.field_hr_employee__notify_others_birthday
-#: model:ir.model.fields,field_description:hr_employee_birthday_mail.field_res_users__notify_others_birthday
 msgid "Notify Others Birthday"
 msgstr "Obavijesti o rođendanu drugih"
 

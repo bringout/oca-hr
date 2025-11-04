@@ -20,6 +20,9 @@ msgid ""
 "            The user will have an access for changing the PIN and PUK of the\n"
 "            employee's corporate phone."
 msgstr ""
+"\n"
+" Korisnik će imati pristup za mijenjanje PIN-a i PUK-a\n"
+" službenega telefona radnika."
 
 #. module: hr_employee_phone_pin
 #: model:res.groups,comment:hr_employee_phone_pin.group_mobile_phone_pin_user
@@ -28,6 +31,9 @@ msgid ""
 "            The user will have an access for seeing the PIN and PUK of the\n"
 "            employee's corporate phone on its employee record."
 msgstr ""
+"\n"
+" Korisnik će imati pristup za pregled PIN-a i PUK-a\n"
+" službenega telefona radnika na njegovom dosijeu."
 
 #. module: hr_employee_phone_pin
 #: model:res.groups,name:hr_employee_phone_pin.group_mobile_phone_pin_manager
@@ -36,13 +42,11 @@ msgstr "Promijeni PIN/PUK"
 
 #. module: hr_employee_phone_pin
 #: model:ir.model.fields,help:hr_employee_phone_pin.field_hr_employee__mobile_phone_pin
-#: model:ir.model.fields,help:hr_employee_phone_pin.field_hr_employee_public__mobile_phone_pin
 msgid "Corporate mobile's PIN, should be a 4 digit number"
 msgstr "PIN službenig telefona, treba biti četvoroznačan broj"
 
 #. module: hr_employee_phone_pin
 #: model:ir.model.fields,help:hr_employee_phone_pin.field_hr_employee__mobile_phone_puk
-#: model:ir.model.fields,help:hr_employee_phone_pin.field_hr_employee_public__mobile_phone_puk
 msgid "Corporate mobile's PUK, should be a 8 digit number"
 msgstr "PUK službenig telefona, treba biti osmoznačan broj"
 
@@ -58,26 +62,24 @@ msgstr "Je trenutni korisnik"
 
 #. module: hr_employee_phone_pin
 #: model:ir.model.fields,field_description:hr_employee_phone_pin.field_hr_employee__mobile_phone_pin
-#: model:ir.model.fields,field_description:hr_employee_phone_pin.field_hr_employee_public__mobile_phone_pin
 msgid "Mobile phone PIN"
 msgstr "PIN mobilnog telefona"
 
 #. module: hr_employee_phone_pin
 #. odoo-python
-#: code:addons/hr_employee_phone_pin/models/hr_employee.py:0
+#: code:addons/hr_employee_phone_pin/models/hr_employee.py
 #, python-format
 msgid "Mobile phone PIN should be a 4 digit number."
 msgstr "PIN mobilnog telefona treba biti četvoroznačan broj."
 
 #. module: hr_employee_phone_pin
 #: model:ir.model.fields,field_description:hr_employee_phone_pin.field_hr_employee__mobile_phone_puk
-#: model:ir.model.fields,field_description:hr_employee_phone_pin.field_hr_employee_public__mobile_phone_puk
 msgid "Mobile phone PUK"
 msgstr "PUK mobilnog telefona"
 
 #. module: hr_employee_phone_pin
 #. odoo-python
-#: code:addons/hr_employee_phone_pin/models/hr_employee.py:0
+#: code:addons/hr_employee_phone_pin/models/hr_employee.py
 #, python-format
 msgid "Mobile phone PUK should be a 8 digit number."
 msgstr "PUK mobilnog telefona treba biti osmoznačan broj."

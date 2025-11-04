@@ -15,13 +15,11 @@ msgstr ""
 
 #. module: hr_holidays_auto_extend
 #: model:ir.model.fields,field_description:hr_holidays_auto_extend.field_hr_leave__auto_extend
-#: model:ir.model.fields,field_description:hr_holidays_auto_extend.field_hr_leave_type__auto_extend
 msgid "Auto Extend"
 msgstr "Auto proširenje"
 
 #. module: hr_holidays_auto_extend
 #: model:ir.model.fields,field_description:hr_holidays_auto_extend.field_hr_leave__auto_extend_period
-#: model:ir.model.fields,field_description:hr_holidays_auto_extend.field_hr_leave_type__auto_extend_period
 msgid "Auto Extend Period"
 msgstr "Period auto proširenja"
 
@@ -32,7 +30,6 @@ msgstr "Tip auto proširenja"
 
 #. module: hr_holidays_auto_extend
 #: model:ir.actions.server,name:hr_holidays_auto_extend.auto_extend_cron_ir_actions_server
-#: model:ir.cron,cron_name:hr_holidays_auto_extend.auto_extend_cron
 msgid "Holidays: Auto extend"
 msgstr "Odmori: Auto proširenje"
 

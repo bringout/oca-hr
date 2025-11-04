@@ -19,6 +19,8 @@ msgid ""
 "<br/>\n"
 "                        Longitude:"
 msgstr ""
+"<br/>\n"
+"                        Geografska dužina:"
 
 #. module: hr_attendance_geolocation
 #: model:ir.model,name:hr_attendance_geolocation.model_hr_attendance

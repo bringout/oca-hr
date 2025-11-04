@@ -43,6 +43,31 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <p>Poštovani <t t-out=\"object.name\"></t>,</p>\n"
+"                    <br>\n"
+"                    <p>Ovo je sažetak odmora za ovu sedmicu:</p>\n"
+"                    <br>\n"
+"                    <table style=\"border-spacing: 0; border-collapse: collapse; width: 100%; text-align: center;\">\n"
+"                        <tr>\n"
+"                            <th style=\"padding: 5px; border: 1px solid black;\">Radnik</th>\n"
+"                            <th style=\"padding: 5px; border: 1px solid black;\">Slobodni dan</th>\n"
+"                            <th style=\"padding: 5px; border: 1px solid black;\">Od</th>\n"
+"                            <th style=\"padding: 5px; border: 1px solid black;\">Do</th>\n"
+"                        </tr>\n"
+"                        <t t-set=\"timeoffs\" t-value=\"ctx.get('time_offs', [])\"></t>\n"
+"                        <t t-foreach=\"timeoffs\" t-as=\"data\">\n"
+"                            <t t-set=\"d_from\" t-value=\"data.format_hr_leave_summary_date()\"></t>\n"
+"                            <t t-set=\"d_to\" t-value=\"data.format_hr_leave_summary_date(False)\"></t>\n"
+"                            <tr>\n"
+"                                <td style=\"padding: 5px; border: 1px solid black;\"><t t-out=\"data.employee_id.name\"></t></td>\n"
+"                                <td style=\"padding: 5px; border: 1px solid black;\"><t t-out=\"data.name or ''\"></t></td>\n"
+"                                <td style=\"padding: 5px; border: 1px solid black;\"><t t-out=\"d_from\"></t></td>\n"
+"                                <td style=\"padding: 5px; border: 1px solid black;\"><t t-out=\"d_to\"></t></td>\n"
+"                            </tr>\n"
+"                        </t>\n"
+"                    </table>\n"
+"                </div>\n"
 
 #. module: hr_holidays_summary_email
 #: model:mail.template,body_html:hr_holidays_summary_email.hr_holidays_summary_mail_template_daily
@@ -74,6 +99,31 @@ msgid ""
 "                </div>\n"
 "            "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"                    <p>Poštovani <t t-out=\"object.name\"></t>,</p>\n"
+"                    <br>\n"
+"                    <p>Ovo je današnji sažetak odmora:</p>\n"
+"                    <br>\n"
+"                    <table style=\"border-spacing: 0; border-collapse: collapse; width: 100%; text-align: center;\">\n"
+"                        <tr>\n"
+"                            <th style=\"padding: 5px; border: 1px solid black;\">Radnik</th>\n"
+"                            <th style=\"padding: 5px; border: 1px solid black;\">Slobodni dan</th>\n"
+"                            <th style=\"padding: 5px; border: 1px solid black;\">Od</th>\n"
+"                            <th style=\"padding: 5px; border: 1px solid black;\">Do</th>\n"
+"                        </tr>\n"
+"                        <t t-set=\"timeoffs\" t-value=\"ctx.get('time_offs', [])\"></t>\n"
+"                        <t t-foreach=\"timeoffs\" t-as=\"data\">\n"
+"                            <t t-set=\"d_from\" t-value=\"data.format_hr_leave_summary_date()\"></t>\n"
+"                            <t t-set=\"d_to\" t-value=\"data.format_hr_leave_summary_date(False)\"></t>\n"
+"                            <tr>\n"
+"                                <td style=\"padding: 5px; border: 1px solid black;\"><t t-out=\"data.employee_id.name\"></t></td>\n"
+"                                <td style=\"padding: 5px; border: 1px solid black;\"><t t-out=\"data.name or ''\"></t></td>\n"
+"                                <td style=\"padding: 5px; border: 1px solid black;\"><t t-out=\"d_from\"></t></td>\n"
+"                                <td style=\"padding: 5px; border: 1px solid black;\"><t t-out=\"d_to\"></t></td>\n"
+"                            </tr>\n"
+"                        </t>\n"
+"                    </table>\n"
+"                </div>\n"
 
 #. module: hr_holidays_summary_email
 #: model_terms:ir.ui.view,arch_db:hr_holidays_summary_email.res_config_settings_view_form
@@ -97,8 +147,6 @@ msgstr "Postavke"
 
 #. module: hr_holidays_summary_email
 #: model:ir.model.fields.selection,name:hr_holidays_summary_email.selection__hr_employee__hr_leave_summary_type__daily
-#: model:ir.model.fields.selection,name:hr_holidays_summary_email.selection__hr_employee_base__hr_leave_summary_type__daily
-#: model:ir.model.fields.selection,name:hr_holidays_summary_email.selection__hr_employee_public__hr_leave_summary_type__daily
 msgid "Daily"
 msgstr "Dnevno"
 
@@ -119,28 +167,21 @@ msgstr "Petak"
 
 #. module: hr_holidays_summary_email
 #: model:ir.model.fields,field_description:hr_holidays_summary_email.field_hr_employee__last_hr_leave_summary_sent
-#: model:ir.model.fields,field_description:hr_holidays_summary_email.field_hr_employee_base__last_hr_leave_summary_sent
-#: model:ir.model.fields,field_description:hr_holidays_summary_email.field_hr_employee_public__last_hr_leave_summary_sent
 msgid "Last Leave Summary Email Sent"
 msgstr "Zadnji poslani e-mail sažetka odmora"
 
 #. module: hr_holidays_summary_email
 #: model:ir.model.fields,field_description:hr_holidays_summary_email.field_hr_employee__hr_leave_summary_type
-#: model:ir.model.fields,field_description:hr_holidays_summary_email.field_hr_employee_base__hr_leave_summary_type
-#: model:ir.model.fields,field_description:hr_holidays_summary_email.field_hr_employee_public__hr_leave_summary_type
-#: model:ir.model.fields,field_description:hr_holidays_summary_email.field_res_users__hr_leave_summary_type
 msgid "Leave Summary Email"
 msgstr "E-mail sažetka odmora"
 
 #. module: hr_holidays_summary_email
 #: model:ir.model.fields,field_description:hr_holidays_summary_email.field_res_company__hr_holidays_summary_weekly_dow
-#: model:ir.model.fields,field_description:hr_holidays_summary_email.field_res_config_settings__hr_holidays_summary_weekly_dow
 msgid "Leave Weekly Summary Day of Week"
 msgstr "Dan sedmice sedmičnog sažetka odmora"
 
 #. module: hr_holidays_summary_email
 #: model:ir.actions.server,name:hr_holidays_summary_email.ir_cron_hr_holidays_summary_email_ir_actions_server
-#: model:ir.cron,cron_name:hr_holidays_summary_email.ir_cron_hr_holidays_summary_email
 msgid "Leaves Summary Email"
 msgstr "E-mail sažetka odmora"
 
@@ -161,8 +202,6 @@ msgstr "Ponedjeljak"
 
 #. module: hr_holidays_summary_email
 #: model:ir.model.fields.selection,name:hr_holidays_summary_email.selection__hr_employee__hr_leave_summary_type__no
-#: model:ir.model.fields.selection,name:hr_holidays_summary_email.selection__hr_employee_base__hr_leave_summary_type__no
-#: model:ir.model.fields.selection,name:hr_holidays_summary_email.selection__hr_employee_public__hr_leave_summary_type__no
 msgid "No"
 msgstr "Ne"
 
@@ -208,8 +247,6 @@ msgstr "Srijeda"
 
 #. module: hr_holidays_summary_email
 #: model:ir.model.fields.selection,name:hr_holidays_summary_email.selection__hr_employee__hr_leave_summary_type__weekly
-#: model:ir.model.fields.selection,name:hr_holidays_summary_email.selection__hr_employee_base__hr_leave_summary_type__weekly
-#: model:ir.model.fields.selection,name:hr_holidays_summary_email.selection__hr_employee_public__hr_leave_summary_type__weekly
 msgid "Weekly"
 msgstr "Sedmično"
 

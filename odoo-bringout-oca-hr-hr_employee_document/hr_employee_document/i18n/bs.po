@@ -18,21 +18,21 @@ msgstr ""
 msgid "Basic Employee"
 msgstr "Obični zaposlenik"
 
+# taken from hr.po
 #. module: hr_employee_document
 #: model_terms:ir.ui.view,arch_db:hr_employee_document.ir_attachment_view_search
 msgid "Content"
 msgstr "Sadržaj"
 
+# taken from hr.po
 #. module: hr_employee_document
 #: model:ir.model.fields,field_description:hr_employee_document.field_hr_employee__document_count
-#: model:ir.model.fields,field_description:hr_employee_document.field_hr_employee_base__document_count
-#: model:ir.model.fields,field_description:hr_employee_document.field_hr_employee_public__document_count
 msgid "Document Count"
 msgstr "Broj dokumenata"
 
+# taken from hr.po
 #. module: hr_employee_document
 #: model_terms:ir.ui.view,arch_db:hr_employee_document.hr_employee_public_view_form
-#: model_terms:ir.ui.view,arch_db:hr_employee_document.hr_employee_view_form
 msgid "Documents"
 msgstr "Dokumenti"
 

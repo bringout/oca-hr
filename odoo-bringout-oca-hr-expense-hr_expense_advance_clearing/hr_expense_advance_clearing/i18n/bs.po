@@ -15,35 +15,33 @@ msgstr ""
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py:0
+#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py
 #, python-format
 msgid ""
 "\n"
 "Note: pending amount clearing is %(symbol)s%(amount)s"
 msgstr ""
+"\n"
+"Napomena: iznos na čekanju za čišćenje je %(symbol)s%(amount)s"
 
 #. module: hr_expense_advance_clearing
 #: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_employee__advance_count
-#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_employee_base__advance_count
-#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_employee_public__advance_count
 msgid "# of Advance"
 msgstr "# avansa"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py:0
+#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py
 #, python-format
 msgid ""
 "A remaining advance return of %(amount)s %(symbol)s with the reference "
 "%(ref)s related to your expense %(name)s has been made."
 msgstr ""
+"Preostala avans povrat od %(amount)s %(symbol)s sa referencom %(ref)s "
+"vezanoj za vaš trošak %(name)s je izvršena."
 
 #. module: hr_expense_advance_clearing
 #: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_account_payment__advance_id
-#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.hr_employee_public_view_form
-#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.hr_expense_sheet_view_search
-#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.hr_expense_view_search
-#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.view_employee_form
 msgid "Advance"
 msgstr "Avans"
 
@@ -64,38 +62,34 @@ msgstr "Preostali avans"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/models/hr_employee_base.py:0
-#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_employee__advance_sheet_ids
-#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_employee_base__advance_sheet_ids
-#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_employee_public__advance_sheet_ids
+#: code:addons/hr_expense_advance_clearing/models/hr_employee_base.py
 #, python-format
 msgid "Advance Sheet"
 msgstr "Izvještaj avansa"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py:0
+#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py
 #, python-format
 msgid "Advance clearing must not contain any advance expense line"
 msgstr "Čišćenje avansa ne smije sadržavati avansnu liniju troška"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py:0
+#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py
 #, python-format
 msgid "Advance must contain only advance expense line"
 msgstr "Avans mora sadržavati samo avansnu liniju troška"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py:0
+#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py
 #, python-format
 msgid "Advance: %s has no amount to clear"
 msgstr "Avans: %s nema iznos za čišćenje"
 
 #. module: hr_expense_advance_clearing
 #: model:ir.actions.act_window,name:hr_expense_advance_clearing.action_my_hr_advance_sheet
-#: model:ir.ui.menu,name:hr_expense_advance_clearing.menu_my_hr_advance_sheet
 msgid "Advances"
 msgstr "Avansi"
 
@@ -116,7 +110,6 @@ msgstr "Obični zaposlenik"
 
 #. module: hr_expense_advance_clearing
 #: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__advance_sheet_id
-#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.view_hr_expense_sheet_form
 msgid "Clear Advance"
 msgstr "Očisti avans"
 
@@ -142,7 +135,7 @@ msgstr "Izvještaj čišćenja"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py:0
+#: code:addons/hr_expense_advance_clearing/models/hr_expense_sheet.py
 #, python-format
 msgid "Clearing Sheets"
 msgstr "Izvještaji čišćenja"
@@ -154,8 +147,6 @@ msgstr "Čišćenja"
 
 #. module: hr_expense_advance_clearing
 #: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_employee__advance_count
-#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_employee_base__advance_count
-#: model:ir.model.fields,help:hr_expense_advance_clearing.field_hr_employee_public__advance_count
 msgid "Count advance sheet in expense report"
 msgstr "Broji izvještaj avansa u izvještaju troškova"
 
@@ -166,49 +157,46 @@ msgstr "Kreiraj novi izvještaj o troškovima"
 
 #. module: hr_expense_advance_clearing
 #: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense__advance
-#: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__advance
-#: model:product.template,name:hr_expense_advance_clearing.product_emp_advance_product_template
 msgid "Employee Advance"
 msgstr "Avans radnika"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/models/hr_expense.py:0
+#: code:addons/hr_expense_advance_clearing/models/hr_expense.py
 #, python-format
 msgid "Employee advance product has no payable account"
 msgstr "Proizvod avansa radnika nema plativ račun"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/models/hr_expense.py:0
+#: code:addons/hr_expense_advance_clearing/models/hr_expense.py
 #, python-format
 msgid "Employee advance, account must be the same payable account"
 msgstr "Avans radnika, račun mora biti isti plativ račun"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/models/hr_expense.py:0
+#: code:addons/hr_expense_advance_clearing/models/hr_expense.py
 #, python-format
 msgid "Employee advance, all taxes must be removed"
 msgstr "Avans radnika, svi porezi moraju biti uklonjeni"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/models/hr_expense.py:0
+#: code:addons/hr_expense_advance_clearing/models/hr_expense.py
 #, python-format
 msgid "Employee advance, paid by must be employee"
 msgstr "Avans radnika, plaća mora biti radnik"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/models/hr_expense.py:0
+#: code:addons/hr_expense_advance_clearing/models/hr_expense.py
 #, python-format
 msgid "Employee advance, selected product is not valid"
 msgstr "Avans radnika, odabrani proizvod nije važeći"
 
 #. module: hr_expense_advance_clearing
 #: model:ir.model,name:hr_expense_advance_clearing.model_hr_expense
-#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.hr_expense_view_search
 msgid "Expense"
 msgstr "Trošak"
 
@@ -224,7 +212,6 @@ msgstr "Trošak kreiran iz ove linije avansnog troška"
 
 #. module: hr_expense_advance_clearing
 #: model:ir.actions.act_window,name:hr_expense_advance_clearing.action_my_hr_expense_sheet
-#: model:ir.ui.menu,name:hr_expense_advance_clearing.menu_my_hr_expense_sheet
 msgid "Expenses"
 msgstr "Troškovi"
 
@@ -254,6 +241,8 @@ msgid ""
 "Once you have created your advance, submit it to your manager who will "
 "validate it."
 msgstr ""
+"Kada kreirate svoj avans, pošaljite ga vašem menadžeru koji će ga "
+"validirati."
 
 #. module: hr_expense_advance_clearing
 #: model_terms:ir.actions.act_window,help:hr_expense_advance_clearing.action_hr_expense_sheet_advance_clearing
@@ -261,6 +250,8 @@ msgid ""
 "Once you have created your expense, submit it to your manager who will\n"
 "                validate it."
 msgstr ""
+"Kada kreirate svoj trošak, pošaljite ga vašem menadžeru koji će ga\n"
+"                validirati."
 
 #. module: hr_expense_advance_clearing
 #: model_terms:ir.actions.act_window,help:hr_expense_advance_clearing.action_my_hr_expense_sheet
@@ -268,6 +259,8 @@ msgid ""
 "Once you have created your expense, submit it to your manager who will "
 "validate it."
 msgstr ""
+"Nakon što ste kreirali svoj trošak, pošaljite ga svom menadžeru koji će ga "
+"validirati."
 
 #. module: hr_expense_advance_clearing
 #: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.hr_expense_view_form
@@ -280,6 +273,8 @@ msgid ""
 "Optional: On the clear advance, the clearing product will create default "
 "product line."
 msgstr ""
+"Opcionalno: pri čišćenju avansa, proizvod čišćenja će kreirati zadanu liniju"
+" proizvoda."
 
 #. module: hr_expense_advance_clearing
 #: model:ir.model.fields,field_description:hr_expense_advance_clearing.field_hr_expense_sheet__amount_payable
@@ -308,7 +303,6 @@ msgstr "Preostali iznos za čišćenje odabranog izvještaja avansa"
 
 #. module: hr_expense_advance_clearing
 #: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.view_account_payment_search
-#: model_terms:ir.ui.view,arch_db:hr_expense_advance_clearing.view_hr_expense_sheet_form
 msgid "Return Advance"
 msgstr "Vrati avans"
 
@@ -324,42 +318,49 @@ msgstr "Prikaži preostali avans ovog radnika"
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/models/account_move.py:0
+#: code:addons/hr_expense_advance_clearing/models/account_move.py
 #, python-format
 msgid ""
 "This operation is not allowed as some advance amount was already cleared/returned.\n"
 "Please cancel those documents first."
 msgstr ""
+"Ova operacija nije dozvoljena jer je neki iznos avansa već očišćen/vraćen.\n"
+"Molimo prvo poništite te dokumente."
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py:0
+#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py
 #, python-format
 msgid "You can only register payment for posted journal entries."
 msgstr "Možete registrovati plaćanje samo za knjižene stavke dnevnika."
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py:0
+#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py
 #, python-format
 msgid ""
 "You can't create payments for entries belonging to different companies."
 msgstr ""
+"Ne možete kreirati plaćanja za stavke koje pripadaju različitim kompanijama."
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py:0
+#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py
 #, python-format
 msgid ""
 "You can't register a payment because there is nothing left to pay on the "
 "selected journal items."
 msgstr ""
+"Ne možete registrovati plaćanje jer nema ništa ostalo za plaćanje na "
+"odabranim stavkama dnevnika."
 
 #. module: hr_expense_advance_clearing
 #. odoo-python
-#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py:0
+#: code:addons/hr_expense_advance_clearing/wizard/account_payment_register.py
 #, python-format
 msgid ""
 "You cannot return advance more than actual remaining "
 "(%(symbol)s%(amount)s)%(more_info)s"
 msgstr ""
+"Ne možete vratiti avans više od stvarno preostalo "
+"(%(symbol)s%(amount)s)%(more_info)s"

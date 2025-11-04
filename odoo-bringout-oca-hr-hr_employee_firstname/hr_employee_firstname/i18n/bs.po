@@ -23,6 +23,7 @@ msgstr "Obični zaposlenik"
 msgid "Config Settings"
 msgstr "Postavke"
 
+# taken from hr.po
 #. module: hr_employee_firstname
 #: model:ir.model,name:hr_employee_firstname.model_hr_employee
 msgid "Employee"
@@ -30,28 +31,23 @@ msgstr "Djelatnik"
 
 #. module: hr_employee_firstname
 #: model:ir.model.fields,field_description:hr_employee_firstname.field_res_config_settings__employee_names_order
-#: model_terms:ir.ui.view,arch_db:hr_employee_firstname.res_config_settings_view_form
 msgid "Employee Names Order"
 msgstr "Redoslijed imena zaposlenika"
 
 #. module: hr_employee_firstname
 #: model:ir.model.fields,field_description:hr_employee_firstname.field_hr_employee__firstname
-#: model:ir.model.fields,field_description:hr_employee_firstname.field_hr_employee_base__firstname
-#: model:ir.model.fields,field_description:hr_employee_firstname.field_hr_employee_public__firstname
 msgid "First name"
 msgstr "Ime"
 
 #. module: hr_employee_firstname
 #: model:ir.model.fields,field_description:hr_employee_firstname.field_hr_employee__lastname
-#: model:ir.model.fields,field_description:hr_employee_firstname.field_hr_employee_base__lastname
-#: model:ir.model.fields,field_description:hr_employee_firstname.field_hr_employee_public__lastname
 msgid "Last name"
 msgstr "Prezime"
 
+# taken from hr.po
 #. module: hr_employee_firstname
 #. odoo-python
-#: code:addons/hr_employee_firstname/models/hr_employee.py:0
-#: code:addons/hr_employee_firstname/models/hr_employee.py:0
+#: code:addons/hr_employee_firstname/models/hr_employee.py
 #, python-format
 msgid "No name set."
 msgstr "Ime nije postavljeno."

@@ -13,11 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: hr_employee_age
 #: model:ir.model.fields,field_description:hr_employee_age.field_hr_employee__age
 msgid "Age"
 msgstr "Starost"
 
+# taken from hr.po
 #. module: hr_employee_age
 #: model:ir.model,name:hr_employee_age.model_hr_employee
 msgid "Employee"

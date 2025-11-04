@@ -35,7 +35,6 @@ msgstr "Informacije o certifikaciji"
 
 #. module: hr_employee_ppe
 #: model:ir.model.fields,field_description:hr_employee_ppe.field_hr_personal_equipment__certification
-#: model:ir.model.fields,help:hr_employee_ppe.field_hr_personal_equipment__certification
 msgid "Certification Number"
 msgstr "Broj certifikata"
 
@@ -61,21 +60,18 @@ msgstr "ZOO radnika"
 
 #. module: hr_employee_ppe
 #. odoo-python
-#: code:addons/hr_employee_ppe/models/hr_personal_equipment.py:0
+#: code:addons/hr_employee_ppe/models/hr_personal_equipment.py
 #, python-format
 msgid "End date cannot occur earlier than start date."
 msgstr "Datum završetka ne može biti prije datuma početka."
 
 #. module: hr_employee_ppe
 #: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_personal_equipment_form_view
-#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_personal_equipment_request_form_view
-#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_personal_equipment_tree_view
 msgid "Expirable"
 msgstr "Ističe"
 
 #. module: hr_employee_ppe
 #: model:ir.model.fields,field_description:hr_employee_ppe.field_product_product__expirable_ppe
-#: model:ir.model.fields,field_description:hr_employee_ppe.field_product_template__expirable_ppe
 msgid "Expirable Ppe"
 msgstr "ZOO koja ističe"
 
@@ -95,6 +91,8 @@ msgid ""
 "I agree to wear the equipment when facing the exposure it is designed to protect against.\n"
 "                            I acknowledge that my failure to do so may subject me to disciplinary action."
 msgstr ""
+"Slažem se da ću nositi opremu kada se suočim sa izloženošću protiv koje je dizajnirana da štiti.\n"
+"                            Prihvatam da moje odbijanje da to činim može dovesti do disciplinske mjere."
 
 #. module: hr_employee_ppe
 #: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_employee_ppe_report_template
@@ -102,32 +100,26 @@ msgid ""
 "I, the undersigned accept the PPE that my employer is providing to me. I further acknowledge that I have been instructed\n"
 "                            in how to wear and maintain it. If it is lost or damaged, I will report the same to my employer promptly for replacement."
 msgstr ""
+"Ja, niže potpisani, prihvatam ZOO koju mi omogućava moj poslodavac. Dalje priznajem da sam poučen\n"
+"                            kako da je nosim i održavam. Ako se izgubi ili ošteti, prijaviću to svom poslodavcu odmah za zamjenu."
 
 #. module: hr_employee_ppe
 #: model:ir.model.fields,field_description:hr_employee_ppe.field_hr_personal_equipment__indications
-#: model:ir.model.fields,field_description:hr_employee_ppe.field_product_product__indications
-#: model:ir.model.fields,field_description:hr_employee_ppe.field_product_template__indications
-#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_employee_ppe_report_template
 msgid "Indications"
 msgstr "Indikacije"
 
 #. module: hr_employee_ppe
 #: model:ir.model.fields,field_description:hr_employee_ppe.field_product_product__ppe_interval_type
-#: model:ir.model.fields,field_description:hr_employee_ppe.field_product_template__ppe_interval_type
 msgid "Interval Unit"
 msgstr "Jedinica intervala"
 
 #. module: hr_employee_ppe
 #: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_personal_equipment_form_view
-#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_personal_equipment_request_form_view
-#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.product_template_form_view
 msgid "Is PPE"
 msgstr "Je ZOO"
 
 #. module: hr_employee_ppe
 #: model:ir.model.fields,field_description:hr_employee_ppe.field_hr_personal_equipment__is_ppe
-#: model:ir.model.fields,field_description:hr_employee_ppe.field_product_product__is_ppe
-#: model:ir.model.fields,field_description:hr_employee_ppe.field_product_template__is_ppe
 msgid "Is Ppe"
 msgstr "Je ZOO"
 
@@ -153,7 +145,6 @@ msgstr "Trajanje ZOO"
 
 #. module: hr_employee_ppe
 #: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_personal_equipment_form_view
-#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.product_template_form_view
 msgid "PPE Indications"
 msgstr "Indikacije ZOO"
 
@@ -164,13 +155,11 @@ msgstr "Tip intervala ZOO"
 
 #. module: hr_employee_ppe
 #: model:ir.model.fields,field_description:hr_employee_ppe.field_product_product__ppe_duration
-#: model:ir.model.fields,field_description:hr_employee_ppe.field_product_template__ppe_duration
 msgid "PPE duration"
 msgstr "Trajanje ZOO"
 
 #. module: hr_employee_ppe
 #: model:ir.actions.server,name:hr_employee_ppe.hr_employee_ppe_cron_ir_actions_server
-#: model:ir.cron,cron_name:hr_employee_ppe.hr_employee_ppe_cron
 msgid "PPE's expiry date verification"
 msgstr "Provjera datuma isteka ZOO"
 
@@ -181,7 +170,6 @@ msgstr "Ispiši priznanicu ZOO"
 
 #. module: hr_employee_ppe
 #: model:ir.model,name:hr_employee_ppe.model_product_template
-#: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_employee_ppe_report_template
 msgid "Product"
 msgstr "Artikal"
 
@@ -202,7 +190,6 @@ msgstr "Priznanica za sredstva za osobnu zaštitu"
 
 #. module: hr_employee_ppe
 #: model:ir.model.fields,help:hr_employee_ppe.field_product_product__expirable_ppe
-#: model:ir.model.fields,help:hr_employee_ppe.field_product_template__expirable_ppe
 msgid "Select this option if the PPE has expiry date."
 msgstr "Izaberite ovu opciju ako ZOO ima datum isteka."
 
@@ -213,10 +200,9 @@ msgstr "Situacije u kojima radnik treba koristiti ovu opremu."
 
 #. module: hr_employee_ppe
 #: model:ir.model.fields,help:hr_employee_ppe.field_product_product__indications
-#: model:ir.model.fields,help:hr_employee_ppe.field_product_template__indications
 msgid ""
 "Situations in which the employee should use this equipment. Only for ppe"
-msgstr ""
+msgstr "Situacije u kojima radnik treba koristiti ovu opremu. Samo za ZOO"
 
 #. module: hr_employee_ppe
 #: model:ir.model,name:hr_employee_ppe.model_hr_personal_equipment_request

@@ -41,6 +41,29 @@ msgid ""
 "            </div>\n"
 "        "
 msgstr ""
+"<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"                <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Dragi ${object.partner_id.name or 'sudioniče'}<br><br>\n"
+"        % if object.survey_id.certificate:\n"
+"            Pozvani ste da provedete novu certifikaciju.\n"
+"        % else:\n"
+"            Provodimo anketu i cijenila bi se vaša povratna informacija.\n"
+"        % endif\n"
+"        <div style=\"margin: 16px 0px 16px 0px;\">\n"
+"                        <a href=\"%24%7B('%s?answer_token=%s'%20%20(object.survey_id.public_url,%20object.access_token))%20%7C%20safe%7D\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
+"                % if object.survey_id.certificate:\n"
+"                    Počni certifikaciju\n"
+"                % else:\n"
+"                    Počni anketu\n"
+"                % endif\n"
+"            </a>\n"
+"                    </div>\n"
+"        % if object.deadline:\n"
+"            Molimo odgovorite na anketu za ${format_date(object.deadline)}.<br><br>\n"
+"        % endif\n"
+"        Hvala vam na sudjelovanju.\n"
+"    </p>\n"
+"            </div>\n"
 
 #. module: hr_course_survey
 #: model:ir.model,name:hr_course_survey.model_hr_course
@@ -59,7 +82,6 @@ msgstr "Raspored tečaja"
 
 #. module: hr_course_survey
 #: model:ir.model.fields,field_description:hr_course_survey.field_hr_course__examination_survey_id
-#: model:ir.model.fields,field_description:hr_course_survey.field_hr_course_schedule__examination_survey_id
 msgid "Examination Survey"
 msgstr "Ispitna anketa"
 
@@ -90,15 +112,15 @@ msgstr "Anketa koju popunjava korisnik"
 
 #. module: hr_course_survey
 #. odoo-python
-#: code:addons/hr_course_survey/models/hr_course_attendee.py:0
+#: code:addons/hr_course_survey/models/hr_course_attendee.py
 #, python-format
 msgid ""
 "Survey cannot be sent because the previous survey has not been answered"
-msgstr ""
+msgstr "Anketa se ne može poslati jer prethodna anketa nije odgovorena"
 
 #. module: hr_course_survey
 #. odoo-python
-#: code:addons/hr_course_survey/models/hr_course_attendee.py:0
+#: code:addons/hr_course_survey/models/hr_course_attendee.py
 #, python-format
 msgid "Survey cannot be sent if the user has not failed"
 msgstr "Anketa se ne može poslati ako korisnik nije pao"

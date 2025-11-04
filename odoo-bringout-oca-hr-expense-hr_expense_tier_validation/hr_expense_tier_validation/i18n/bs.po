@@ -75,7 +75,7 @@ msgstr "Ovejritelji"
 
 #. module: hr_expense_tier_validation
 #. odoo-python
-#: code:addons/hr_expense_tier_validation/models/hr_expense.py:0
+#: code:addons/hr_expense_tier_validation/models/hr_expense.py
 #, python-format
 msgid "The expense report is under validation."
 msgstr "Izvještaj troškova je u validaciji."

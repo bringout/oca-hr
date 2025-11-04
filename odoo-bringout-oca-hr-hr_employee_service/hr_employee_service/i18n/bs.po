@@ -43,10 +43,11 @@ msgstr "Datum zapošljavanja"
 msgid ""
 "Hire date is normally the date an employee completes new hire paperwork"
 msgstr ""
+"Datum zapošljavanja je obično datum kada radnik završi papirologiju za novi "
+"posao"
 
 #. module: hr_employee_service
 #: model:ir.model.fields,field_description:hr_employee_service.field_hr_employee__service_duration
-#: model_terms:ir.ui.view,arch_db:hr_employee_service.view_employee_form_inherit_extension
 msgid "Service Duration"
 msgstr "Trajanje službe"
 
@@ -86,6 +87,8 @@ msgid ""
 "Start date is the first day the employee actually works and this date is "
 "used for accrual leave allocations calculation"
 msgstr ""
+"Datum početka je prvi dan kada radnik stvarno radi i ovaj datum se koristi "
+"za kalkulaciju raspodjele godišnjeg odmora"
 
 #. module: hr_employee_service
 #: model:ir.model.fields,field_description:hr_employee_service.field_hr_employee__service_termination_date
@@ -98,3 +101,5 @@ msgid ""
 "Termination date is the last day the employee actually works and this date "
 "is used for accrual leave allocations calculation"
 msgstr ""
+"Datum otkaza je zadnji dan kada radnik stvarno radi i ovaj datum se koristi "
+"za kalkulaciju raspodjele godišnjeg odmora"

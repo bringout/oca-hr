@@ -20,7 +20,8 @@ msgstr "Zaposleni"
 
 #. module: hr_birthday_welcome_message
 #. odoo-javascript
-#: code:addons/hr_birthday_welcome_message/static/src/js/greeting_message.js:0
+#: code:addons/hr_birthday_welcome_message/static/src/js/greeting_message.js
 #, python-format
 msgid "Happy Birthday! <i class='fa fa-birthday-cake' /> <br/> Enjoy your day"
-msgstr "Sretan rođendan! <i class='fa fa-birthday-cake' /> <br/> Uživaj u svom danu"
+msgstr ""
+"Sretan rođendan! <i class='fa fa-birthday-cake' /> <br/> Uživaj u svom danu"

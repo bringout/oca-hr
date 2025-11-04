@@ -25,7 +25,6 @@ msgstr "Radno mjesto"
 
 #. module: hr_recruitment_torecruit
 #: model:ir.model.fields,field_description:hr_recruitment_torecruit.field_hr_job__to_recruit
-#: model_terms:ir.ui.view,arch_db:hr_recruitment_torecruit.view_hr_job_kanban_inherit_hr_recruitment
 msgid "To be recruited"
 msgstr "Za regrutiranje"
 

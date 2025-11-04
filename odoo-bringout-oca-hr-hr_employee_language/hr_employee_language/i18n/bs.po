@@ -150,8 +150,6 @@ msgstr "Holandski / Nederlands"
 
 #. module: hr_employee_language
 #: model:ir.model,name:hr_employee_language.model_hr_employee
-#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__employee_id
-#: model_terms:ir.ui.view,arch_db:hr_employee_language.view_hr_employee_language_search
 msgid "Employee"
 msgstr "Zaposleni"
 
@@ -307,16 +305,11 @@ msgstr "Korejski (KR) / 한국어 (KR)"
 
 #. module: hr_employee_language
 #: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__name
-#: model_terms:ir.ui.view,arch_db:hr_employee_language.view_hr_employee_language_form
-#: model_terms:ir.ui.view,arch_db:hr_employee_language.view_hr_employee_language_search
 msgid "Language"
 msgstr "Jezik"
 
 #. module: hr_employee_language
 #: model:ir.actions.act_window,name:hr_employee_language.open_view_hr_employee_language_form
-#: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee__language_ids
-#: model:ir.ui.menu,name:hr_employee_language.menu_open_view_hr_employee_language_form
-#: model_terms:ir.ui.view,arch_db:hr_employee_language.hr_employee_form
 msgid "Languages"
 msgstr "Jezici"
 

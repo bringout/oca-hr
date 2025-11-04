@@ -35,13 +35,11 @@ msgstr "Obični zaposlenik"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__check_in
-#: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee__last_check_in
 msgid "Check In"
 msgstr "Prijava"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_attendance__check_out
-#: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee__last_check_out
 msgid "Check Out"
 msgstr "Odjava"
 
@@ -82,13 +80,11 @@ msgstr "Pratilac"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee_base__last_check_in
-#: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee_public__last_check_in
 msgid "Last Check In"
 msgstr "Zadnja prijava"
 
 #. module: hr_attendance_modification_tracking
 #: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee_base__last_check_out
-#: model:ir.model.fields,field_description:hr_attendance_modification_tracking.field_hr_employee_public__last_check_out
 msgid "Last Check Out"
 msgstr "Zadnja odjava"
 
@@ -138,6 +134,8 @@ msgid ""
 "This attendance has been manually changed by user. If attendance is created "
 "from form view, a 60 seconds tolerance will be applied."
 msgstr ""
+"Ova evidencija je ručno promijenjena od korisnika. Ako se evidencija kreira "
+"iz pogleda forme, tolerancija od 60 sekundi će biti primijenjena."
 
 #. module: hr_attendance_modification_tracking
 #: model_terms:ir.ui.view,arch_db:hr_attendance_modification_tracking.hr_attendance_view_search

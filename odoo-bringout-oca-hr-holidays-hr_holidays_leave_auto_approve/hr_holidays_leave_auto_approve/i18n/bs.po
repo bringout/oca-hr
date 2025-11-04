@@ -18,18 +18,24 @@ msgstr ""
 msgid "Auto Approve Policy"
 msgstr "Politika auto odobravanje"
 
+# taken from hr.po
 #. module: hr_holidays_leave_auto_approve
 #: model:ir.model.fields.selection,name:hr_holidays_leave_auto_approve.selection__hr_leave_type__auto_approve_policy__all
+#, fuzzy
 msgid "Auto Validated by Everyone"
 msgstr "Automatski odobri"
 
+# taken from hr.po
 #. module: hr_holidays_leave_auto_approve
 #: model:ir.model.fields.selection,name:hr_holidays_leave_auto_approve.selection__hr_leave_type__auto_approve_policy__hr
+#, fuzzy
 msgid "Auto Validated by HR"
 msgstr "Automatski odobri"
 
+# taken from hr.po
 #. module: hr_holidays_leave_auto_approve
 #: model:ir.model.fields.selection,name:hr_holidays_leave_auto_approve.selection__hr_leave_type__auto_approve_policy__no
+#, fuzzy
 msgid "No auto Validation"
 msgstr "Automatski odobri"
 

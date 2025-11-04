@@ -15,21 +15,25 @@ msgstr ""
 
 #. module: hr_employee_calendar_planning
 #. odoo-python
-#: code:addons/hr_employee_calendar_planning/models/resource_calendar.py:0
+#: code:addons/hr_employee_calendar_planning/models/resource_calendar.py
 #, python-format
 msgid ""
 "%(item_name)s is used in %(total_items)s employee(s) related to another "
 "company."
 msgstr ""
+"%(item_name)s se koristi u %(total_items)s zaposlenika(a) povezanih s drugom"
+" tvrtkom."
 
 #. module: hr_employee_calendar_planning
 #. odoo-python
-#: code:addons/hr_employee_calendar_planning/models/resource_calendar.py:0
+#: code:addons/hr_employee_calendar_planning/models/resource_calendar.py
 #, python-format
 msgid ""
 "%(item_name)s is used in %(total_items)s employee(s).You should change them "
 "first."
 msgstr ""
+"%(item_name)s se koristi u %(total_items)s zaposlenika(a). Trebate ih prvo "
+"promijeniti."
 
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_resource_calendar__active
@@ -43,7 +47,7 @@ msgstr "Automatski generiraj"
 
 #. module: hr_employee_calendar_planning
 #. odoo-python
-#: code:addons/hr_employee_calendar_planning/models/hr_employee.py:0
+#: code:addons/hr_employee_calendar_planning/models/hr_employee.py
 #, python-format
 msgid "Auto generated calendar for employee"
 msgstr "Automatski generirani kalendar za zaposlenika"
@@ -80,13 +84,11 @@ msgstr "Prikazani naziv"
 
 #. module: hr_employee_calendar_planning
 #: model:ir.model,name:hr_employee_calendar_planning.model_hr_employee
-#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar__employee_id
 msgid "Employee"
 msgstr "Zaposleni"
 
 #. module: hr_employee_calendar_planning
 #: model:ir.model,name:hr_employee_calendar_planning.model_hr_employee_calendar
-#: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_resource_calendar__employee_calendar_ids
 msgid "Employee Calendar"
 msgstr "Kalendar zaposlenika"
 
@@ -111,6 +113,8 @@ msgid ""
 "If the active field is set to false, it will allow you to hide the Working "
 "Time without removing it."
 msgstr ""
+"Ako je aktivno polje postavljeno na netočno, omogućit će vam da sakrijete "
+"radno vrijeme bez uklanjanja."
 
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar____last_update
@@ -144,7 +148,7 @@ msgstr "Radno Vrijeme"
 
 #. module: hr_employee_calendar_planning
 #. odoo-python
-#: code:addons/hr_employee_calendar_planning/models/hr_employee.py:0
+#: code:addons/hr_employee_calendar_planning/models/hr_employee.py
 #, python-format
 msgid "You can not create employees without any calendar."
 msgstr "Ne možete kreirati zaposlenike bez ikakvog kalendara."

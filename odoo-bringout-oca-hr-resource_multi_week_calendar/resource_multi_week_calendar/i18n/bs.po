@@ -75,12 +75,16 @@ msgid ""
 "        specified date becomes the first week, and all subsequent weeks\n"
 "        alternate in order."
 msgstr ""
+"Kad koristite alternativne tjedne, tjedan koji sadrži navedeni datum postaje"
+" prvi tjedan, a svi sljedeći tjedni se izmjenjuju redoslijedom."
 
 #. module: resource_multi_week_calendar
 #. odoo-python
-#: code:addons/resource_multi_week_calendar/models/resource_calendar.py:0
+#: code:addons/resource_multi_week_calendar/models/resource_calendar.py
 #, python-format
 msgid ""
 "Working Time '%(name)s' may not be the Main Working Time of another Working "
 "Time ('%(child)s') while it has a Main Working Time itself ('%(parent)s')"
 msgstr ""
+"Radno vrijeme '%(name)s' možda nije glavno radno vrijeme drugog radnog "
+"vremena ('%(child)s') dok ono samo ima glavno radno vrijeme ('%(parent)s')"

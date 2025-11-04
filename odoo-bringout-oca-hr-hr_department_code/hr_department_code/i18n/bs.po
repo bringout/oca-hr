@@ -13,11 +13,13 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
+# taken from hr.po
 #. module: hr_department_code
 #: model:ir.model.fields,field_description:hr_department_code.field_hr_department__code
 msgid "Code"
 msgstr "Šifra"
 
+# taken from hr.po
 #. module: hr_department_code
 #: model:ir.model,name:hr_department_code.model_hr_department
 msgid "Department"
