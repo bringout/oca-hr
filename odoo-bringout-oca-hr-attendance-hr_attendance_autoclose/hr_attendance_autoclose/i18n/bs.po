@@ -68,7 +68,7 @@ msgstr "Tvrtke"
 #. module: hr_attendance_autoclose
 #: model:ir.model,name:hr_attendance_autoclose.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 # taken from hr.po
 #. module: hr_attendance_autoclose

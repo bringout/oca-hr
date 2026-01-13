@@ -143,7 +143,7 @@ msgstr "Kompanije"
 #. module: hr_holidays_summary_email
 #: model:ir.model,name:hr_holidays_summary_email.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke konfiguracije"
+msgstr "Postavke"
 
 #. module: hr_holidays_summary_email
 #: model:ir.model.fields.selection,name:hr_holidays_summary_email.selection__hr_employee__hr_leave_summary_type__daily

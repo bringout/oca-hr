@@ -171,7 +171,7 @@ msgstr "Ispiši priznanicu ZOO"
 #. module: hr_employee_ppe
 #: model:ir.model,name:hr_employee_ppe.model_product_template
 msgid "Product"
-msgstr "Proizvod"
+msgstr "Artikal"
 
 #. module: hr_employee_ppe
 #: model_terms:ir.ui.view,arch_db:hr_employee_ppe.hr_employee_ppe_report_template

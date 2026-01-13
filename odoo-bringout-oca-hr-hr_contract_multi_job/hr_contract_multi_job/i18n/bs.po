@@ -76,17 +76,17 @@ msgstr "Zadaci"
 #. module: hr_contract_multi_job
 #: model:ir.model.fields,field_description:hr_contract_multi_job.field_hr_contract_job____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: hr_contract_multi_job
 #: model:ir.model.fields,field_description:hr_contract_multi_job.field_hr_contract_job__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: hr_contract_multi_job
 #: model:ir.model.fields,field_description:hr_contract_multi_job.field_hr_contract_job__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: hr_contract_multi_job
 #: model:ir.model.fields,field_description:hr_contract_multi_job.field_hr_contract_job__is_main_job

@@ -77,7 +77,7 @@ msgstr "Skladišnice"
 #. module: hr_personal_equipment_stock
 #: model:ir.model,name:hr_personal_equipment_stock.model_procurement_group
 msgid "Procurement Group"
-msgstr "Nalog za nabavu"
+msgstr "Grupa naručivanja"
 
 #. module: hr_personal_equipment_stock
 #: model:ir.model.fields,field_description:hr_personal_equipment_stock.field_hr_personal_equipment__skip_procurement

@@ -36,7 +36,7 @@ msgstr "Šifra"
 #. module: hr_professional_category
 #: model:ir.model.fields,field_description:hr_professional_category.field_hr_professional_category__company_id
 msgid "Company"
-msgstr "Kompanija"
+msgstr "Preduzeće"
 
 #. module: hr_professional_category
 #: model:ir.model,name:hr_professional_category.model_hr_contract
@@ -66,17 +66,17 @@ msgstr "ID"
 #. module: hr_professional_category
 #: model:ir.model.fields,field_description:hr_professional_category.field_hr_professional_category____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: hr_professional_category
 #: model:ir.model.fields,field_description:hr_professional_category.field_hr_professional_category__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: hr_professional_category
 #: model:ir.model.fields,field_description:hr_professional_category.field_hr_professional_category__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: hr_professional_category
 #: model:ir.model.fields,field_description:hr_professional_category.field_hr_professional_category__name

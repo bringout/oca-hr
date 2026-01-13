@@ -236,7 +236,7 @@ msgstr "Grčki / Ελληνικά"
 #. module: hr_employee_language
 #: model_terms:ir.ui.view,arch_db:hr_employee_language.view_hr_employee_language_search
 msgid "Group By"
-msgstr "Grupiši po..."
+msgstr "Grupiši po"
 
 #. module: hr_employee_language
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__gu_in
@@ -326,17 +326,17 @@ msgstr "Laoski / ພາສາລາວ"
 #. module: hr_employee_language
 #: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena na"
+msgstr "Zadnje mijenjano"
 
 #. module: hr_employee_language
 #: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažuriranje izvršio"
+msgstr "Zadnji ažurirao"
 
 #. module: hr_employee_language
 #: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažuriranje na"
+msgstr "Zadnje ažurirano"
 
 #. module: hr_employee_language
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__lv_lv
