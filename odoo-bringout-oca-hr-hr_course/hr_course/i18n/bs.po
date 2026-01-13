@@ -21,7 +21,7 @@ msgstr "Odsutan"
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna akcija"
+msgstr "Potrebna radnja"
 
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__active
@@ -36,7 +36,7 @@ msgstr "Aktivnosti"
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "Dekoracija iznimke aktivnosti"
+msgstr "Dekoracija izuzetka aktivnosti"
 
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__activity_state
@@ -86,7 +86,7 @@ msgstr "Otkaži tečaj"
 #. module: hr_course
 #: model:ir.model.fields.selection,name:hr_course.selection__hr_course_schedule__state__cancelled
 msgid "Cancelled"
-msgstr "Otkazan"
+msgstr "Otkazano"
 
 #. module: hr_course
 #: model_terms:ir.ui.view,arch_db:hr_course.hr_course_schedule_form_view
@@ -253,12 +253,12 @@ msgstr "Neuspješan"
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__message_follower_ids
 msgid "Followers"
-msgstr "Pratioci"
+msgstr "Pratitelji"
 
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratioci (Partneri)"
+msgstr "Pratitelji (partneri)"
 
 #. module: hr_course
 #: model:ir.model.fields,help:hr_course.field_hr_course__activity_type_icon
@@ -328,17 +328,17 @@ msgstr "Pratilac"
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena na"
 
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnje ažuriranje izvršio"
 
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnje ažuriranje na"
 
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__message_main_attachment_id
@@ -353,7 +353,7 @@ msgstr "Greška pri isporuci poruke"
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__message_ids
 msgid "Messages"
-msgstr "Poruke"
+msgstr "Nepročitane poruke"
 
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__my_activity_date_deadline
@@ -473,7 +473,7 @@ msgstr "Počni tečaj"
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__course_start
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Datum početka"
 
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course_attendee__state
@@ -518,7 +518,7 @@ msgstr "Čekanje sudionika"
 #. module: hr_course
 #: model:ir.model.fields,field_description:hr_course.field_hr_course__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Nepročitane poruke"
 
 #. module: hr_course
 #: model:ir.model.fields,help:hr_course.field_hr_course__website_message_ids
