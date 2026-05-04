@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: hr_org_chart_overview
 #. odoo-javascript
-#: code:addons/hr_org_chart_overview/static/src/xml/hr_org_chart_overview.xml
+#: code:addons/hr_org_chart_overview/static/src/xml/hr_org_chart_overview.xml:0
 #, python-format
 msgid "Control panel toolbar"
 msgstr "Traka alata kontrolne ploče"
@@ -32,7 +32,7 @@ msgstr "Organizacioni dijagram"
 
 #. module: hr_org_chart_overview
 #. odoo-python
-#: code:addons/hr_org_chart_overview/models/hr_employee.py
+#: code:addons/hr_org_chart_overview/models/hr_employee.py:0
 #, python-format
 msgid "You cannot assign manager recursively."
 msgstr "Broj indirektnih podređenih"

@@ -25,7 +25,7 @@ msgstr "Povijest ugovora"
 
 #. module: hr_contract_update_overtime
 #. odoo-python
-#: code:addons/hr_contract_update_overtime/models/hr_contract.py
+#: code:addons/hr_contract_update_overtime/models/hr_contract.py:0
 #, python-format
 msgid "Overtime updated"
 msgstr "Prekovremeno ažurirano"

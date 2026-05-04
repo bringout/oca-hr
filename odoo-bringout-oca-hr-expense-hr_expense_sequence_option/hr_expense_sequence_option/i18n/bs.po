@@ -31,4 +31,4 @@ msgstr "Osnovni model opcije sekvence"
 #. module: hr_expense_sequence_option
 #: model:ir.model.fields.selection,name:hr_expense_sequence_option.selection__ir_sequence_option__model__hr_expense_sheet
 msgid "hr.expense.sheet"
-msgstr "hr.expense.sheet"
+msgstr ""

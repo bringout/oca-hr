@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: hr_employee_medical_examination
 #. odoo-python
-#: code:addons/hr_employee_medical_examination/wizards/wizard_generate_medical_examination.py
+#: code:addons/hr_employee_medical_examination/wizards/wizard_generate_medical_examination.py:0
 #, python-format
 msgid "%(name)s on %(employee)s"
 msgstr "%(name)s na %(employee)s"
@@ -30,7 +30,7 @@ msgstr "<strong>Filteri:</strong>"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_needaction
 msgid "Action Needed"
-msgstr "Potrebna radnja"
+msgstr "Potrebna akcija"
 
 # taken from hr.po
 #. module: hr_employee_medical_examination
@@ -84,7 +84,7 @@ msgstr "Može vidjeti gumb Pregleda"
 #. module: hr_employee_medical_examination
 #: model_terms:ir.ui.view,arch_db:hr_employee_medical_examination.wizard_generate_medical_examination_form_view
 msgid "Cancel"
-msgstr "Odustani"
+msgstr "Otkaži"
 
 # taken from hr.po
 #. module: hr_employee_medical_examination
@@ -114,7 +114,7 @@ msgstr "Odjel"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: hr_employee_medical_examination
@@ -173,13 +173,13 @@ msgstr "Nije zadovoljio"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_follower_ids
 msgid "Followers"
-msgstr "Pratitelji"
+msgstr "Pratioci"
 
 # taken from hr.po
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "Pratitelji (partneri)"
+msgstr "Pratioci (partneri)"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_type_icon
@@ -206,7 +206,7 @@ msgstr "Generiraj medicinski pregled"
 # taken from hr.po
 #. module: hr_employee_medical_examination
 #. odoo-python
-#: code:addons/hr_employee_medical_examination/wizards/wizard_generate_medical_examination.py
+#: code:addons/hr_employee_medical_examination/wizards/wizard_generate_medical_examination.py:0
 #, python-format
 msgid "Generate Medical Examinations"
 msgstr "Generiraj medicinske preglede"
@@ -221,7 +221,7 @@ msgstr "Čarobnjak za generiranje medicinskih pregleda"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__has_message
 msgid "Has Message"
-msgstr "Ima poruka"
+msgstr "Ima poruku"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__id
@@ -237,22 +237,22 @@ msgstr "Ikona"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "Ikona za prikaz iznimki."
+msgstr "Ikona za označavanje izuzetne aktivnosti."
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "Ako je zakačeno, nove poruke će zahtjevati vašu pažnju"
+msgstr "Ako je označeno, nove poruke zahtijevaju vašu pažnju."
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "Ako je označeno neke poruke mogu imati grešku u dostavi."
+msgstr "Ako je označeno, neke poruke imaju grešku pri dostavi."
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_is_follower
 msgid "Is Follower"
-msgstr "Pratilac"
+msgstr "Je pratilac"
 
 # taken from hr.po
 #. module: hr_employee_medical_examination
@@ -264,13 +264,13 @@ msgstr "Posao"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination____last_update
 msgid "Last Modified on"
-msgstr "Zadnje modificirano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__write_uid
 msgid "Last Updated by"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji ažurirao"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__write_date
@@ -327,7 +327,7 @@ msgstr "Medicinski pregledi"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_has_error
 msgid "Message Delivery error"
-msgstr "Greška pri isporuci poruke"
+msgstr "Greška dostave poruke"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__message_ids
@@ -337,12 +337,12 @@ msgstr "Poruke"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "Rok za moju aktivnost"
+msgstr "Rok moje aktivnosti"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_calendar_event_id
@@ -352,12 +352,12 @@ msgstr "Kaldendarski događaj slijedeće aktivnosti"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "Krajnji rok za sljedeću aktivnost"
+msgstr "Rok sljedeće aktivnosti"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_summary
 msgid "Next Activity Summary"
-msgstr "Pregled sljedeće aktivnosti"
+msgstr "Sažetak sljedeće aktivnosti"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_type_id
@@ -382,12 +382,12 @@ msgstr "Broj grešaka"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "Broj poruka koje zahtijevaju aktivnost"
+msgstr "Broj poruka koje zahtijevaju akciju"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "Broj poruka sa greškama pri isporuci"
+msgstr "Broj poruka sa greškom pri dostavi"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields.selection,name:hr_employee_medical_examination.selection__hr_employee_medical_examination__result__passed
@@ -432,8 +432,8 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"Status baziran na aktivnostima\n"
-"Zakašnjelo: Rok je već prošao\n"
+"Status na osnovu aktivnosti\n"
+"Isteklo: Rok je već prošao\n"
 "Danas: Datum aktivnosti je danas\n"
 "Planirano: Buduće aktivnosti."
 
@@ -445,7 +445,7 @@ msgstr "Današnje aktivnosti"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "Vrsta aktivnosti iznimke na zapisu."
+msgstr "Tip izuzetne aktivnosti na zapisu."
 
 #. module: hr_employee_medical_examination
 #: model:ir.ui.menu,name:hr_employee_medical_examination.hr_employee_medical_examination_all
@@ -455,12 +455,12 @@ msgstr "Prikaži medicinske preglede"
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__website_message_ids
 msgid "Website Messages"
-msgstr "Poruke sa website-a"
+msgstr "Poruke web stranice"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,help:hr_employee_medical_examination.field_hr_employee_medical_examination__website_message_ids
 msgid "Website communication history"
-msgstr "Povijest komunikacije Web stranice"
+msgstr "Historija komunikacije web stranice"
 
 #. module: hr_employee_medical_examination
 #: model:ir.model.fields,field_description:hr_employee_medical_examination.field_hr_employee_medical_examination__year

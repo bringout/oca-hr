@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: hr_attendance_rfid
 #. odoo-python
-#: code:addons/hr_attendance_rfid/models/hr_employee.py
+#: code:addons/hr_attendance_rfid/models/hr_employee.py:0
 #, python-format
 msgid "Attendance recorded for employee %s"
 msgstr "Evidencija zabilježena za zaposlenika %s"
@@ -27,14 +27,14 @@ msgstr "Obični zaposlenik"
 
 #. module: hr_attendance_rfid
 #. odoo-python
-#: code:addons/hr_attendance_rfid/models/hr_employee.py
+#: code:addons/hr_attendance_rfid/models/hr_employee.py:0
 #, python-format
 msgid "No attendance was recorded for employee %s"
 msgstr "Nema zabilježene evidencije za zaposlenika %s"
 
 #. module: hr_attendance_rfid
 #. odoo-python
-#: code:addons/hr_attendance_rfid/models/hr_employee.py
+#: code:addons/hr_attendance_rfid/models/hr_employee.py:0
 #, python-format
 msgid "No employee found with card %s"
 msgstr "Nema pronađenog zaposlenika s karticom %s"

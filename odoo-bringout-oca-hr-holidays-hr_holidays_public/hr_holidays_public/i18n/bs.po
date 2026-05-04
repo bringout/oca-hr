@@ -47,7 +47,7 @@ msgstr "Kalendarska godina"
 #. module: hr_holidays_public
 #: model_terms:ir.ui.view,arch_db:hr_holidays_public.holidays_public_next_year_wizard_view
 msgid "Cancel"
-msgstr "Odustani"
+msgstr "Otkaži"
 
 #. module: hr_holidays_public
 #: model:ir.model,name:hr_holidays_public.model_res_partner
@@ -105,7 +105,7 @@ msgstr "Datum može varirati"
 # taken from hr.po
 #. module: hr_holidays_public
 #. odoo-python
-#: code:addons/hr_holidays_public/models/hr_holidays_public.py
+#: code:addons/hr_holidays_public/models/hr_holidays_public.py:0
 #, python-format
 msgid ""
 "Dates of holidays should be the same year as the calendar year they are "
@@ -124,7 +124,7 @@ msgstr "Zadane vrijednosti"
 #. module: hr_holidays_public
 #: model:ir.model.fields,field_description:hr_holidays_public.field_hr_holidays_public_line__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: hr_holidays_public
@@ -154,7 +154,7 @@ msgstr ""
 #. module: hr_holidays_public
 #: model:ir.model.fields,field_description:hr_holidays_public.field_hr_holidays_public____last_update
 msgid "Last Modified on"
-msgstr "Zadnje modificirano"
+msgstr "Zadnja izmjena"
 
 # taken from hr.po
 #. module: hr_holidays_public
@@ -182,7 +182,7 @@ msgstr "Naziv"
 # taken from hr.po
 #. module: hr_holidays_public
 #. odoo-python
-#: code:addons/hr_holidays_public/wizards/holidays_public_next_year_wizard.py
+#: code:addons/hr_holidays_public/wizards/holidays_public_next_year_wizard.py:0
 #, python-format
 msgid ""
 "No Public Holidays found as template. Please create the first Public "
@@ -310,7 +310,7 @@ msgstr ""
 
 #. module: hr_holidays_public
 #. odoo-python
-#: code:addons/hr_holidays_public/models/hr_holidays_public.py
+#: code:addons/hr_holidays_public/models/hr_holidays_public.py:0
 #, python-format
 msgid ""
 "You can't create duplicate public holiday per date %s and one of the country"
@@ -321,21 +321,21 @@ msgstr ""
 
 #. module: hr_holidays_public
 #. odoo-python
-#: code:addons/hr_holidays_public/models/hr_holidays_public.py
+#: code:addons/hr_holidays_public/models/hr_holidays_public.py:0
 #, python-format
 msgid "You can't create duplicate public holiday per date %s."
 msgstr "Ne možete kreirati duplikat javnog praznika po datumu %s."
 
 #. module: hr_holidays_public
 #. odoo-python
-#: code:addons/hr_holidays_public/models/hr_holidays_public.py
+#: code:addons/hr_holidays_public/models/hr_holidays_public.py:0
 #, python-format
 msgid "You can't create duplicate public holiday per year and/or country"
 msgstr "Ne možete kreirati duplikat javnog praznika po godini i/ili zemlji"
 
 #. module: hr_holidays_public
 #. odoo-python
-#: code:addons/hr_holidays_public/wizards/holidays_public_next_year_wizard.py
+#: code:addons/hr_holidays_public/wizards/holidays_public_next_year_wizard.py:0
 #, python-format
 msgid ""
 "You cannot use as template the public holidays of a year that includes "

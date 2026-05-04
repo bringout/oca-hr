@@ -51,7 +51,7 @@ msgstr "Kompanije"
 #. module: hr_attendance_reason
 #: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance_reason__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: hr_attendance_reason
 #: model:ir.model,name:hr_attendance_reason.model_res_config_settings
@@ -81,7 +81,7 @@ msgstr "Definiraj razlog evidencije"
 #. module: hr_attendance_reason
 #: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance_reason__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: hr_attendance_reason
 #: model:ir.model,name:hr_attendance_reason.model_hr_employee
@@ -96,7 +96,7 @@ msgstr "ID"
 #. module: hr_attendance_reason
 #: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance_reason____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: hr_attendance_reason
 #: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance_reason__write_uid
@@ -115,14 +115,14 @@ msgstr "Ostavite prazno ako je nezavisan"
 
 #. module: hr_attendance_reason
 #. odoo-javascript
-#: code:addons/hr_attendance_reason/static/src/js/kiosk_confirm.esm.js
+#: code:addons/hr_attendance_reason/static/src/js/kiosk_confirm.esm.js:0
 #, python-format
 msgid "Please, select a reason"
 msgstr "Molimo odaberite razlog"
 
 #. module: hr_attendance_reason
 #. odoo-javascript
-#: code:addons/hr_attendance_reason/static/src/xml/attendance.xml
+#: code:addons/hr_attendance_reason/static/src/xml/attendance.xml:0
 #, python-format
 msgid "Reason"
 msgstr "Razlog"
@@ -145,7 +145,7 @@ msgstr "Obavezan razlog na ekranu evidencije"
 #. module: hr_attendance_reason
 #: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance_reason__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 #. module: hr_attendance_reason
 #: model:ir.model.fields,field_description:hr_attendance_reason.field_hr_attendance_reason__show_on_attendance_screen

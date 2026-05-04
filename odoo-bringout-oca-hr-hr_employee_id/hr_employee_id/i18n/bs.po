@@ -100,7 +100,7 @@ msgstr ""
 #. module: hr_employee_id
 #: model:ir.model.fields.selection,name:hr_employee_id.selection__res_company__employee_id_gen_method__sequence
 msgid "Sequence"
-msgstr "Sekvenca"
+msgstr "Redoslijed"
 
 # taken from hr.po
 #. module: hr_employee_id
@@ -110,7 +110,7 @@ msgstr "Šifra djelatnika mora biti jedinstvena unutar(između) poduzeća"
 
 #. module: hr_employee_id
 #. odoo-python
-#: code:addons/hr_employee_id/models/hr_employee.py
+#: code:addons/hr_employee_id/models/hr_employee.py:0
 #, python-format
 msgid "Unable to generate unique Employee ID in %d steps."
 msgstr "Ne mogu generirati jedinstveni ID zaposlenika u %d koraka."

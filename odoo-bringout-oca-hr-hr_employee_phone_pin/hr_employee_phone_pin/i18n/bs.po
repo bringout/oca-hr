@@ -67,7 +67,7 @@ msgstr "PIN mobilnog telefona"
 
 #. module: hr_employee_phone_pin
 #. odoo-python
-#: code:addons/hr_employee_phone_pin/models/hr_employee.py
+#: code:addons/hr_employee_phone_pin/models/hr_employee.py:0
 #, python-format
 msgid "Mobile phone PIN should be a 4 digit number."
 msgstr "PIN mobilnog telefona treba biti četvoroznačan broj."
@@ -79,7 +79,7 @@ msgstr "PUK mobilnog telefona"
 
 #. module: hr_employee_phone_pin
 #. odoo-python
-#: code:addons/hr_employee_phone_pin/models/hr_employee.py
+#: code:addons/hr_employee_phone_pin/models/hr_employee.py:0
 #, python-format
 msgid "Mobile phone PUK should be a 8 digit number."
 msgstr "PUK mobilnog telefona treba biti osmoznačan broj."

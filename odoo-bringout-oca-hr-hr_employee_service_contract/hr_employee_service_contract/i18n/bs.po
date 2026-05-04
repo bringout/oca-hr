@@ -41,7 +41,7 @@ msgstr "Zadnji ugovor radnika"
 #. module: hr_employee_service_contract
 #: model:ir.model.fields,field_description:hr_employee_service_contract.field_hr_employee__service_start_date
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 #. module: hr_employee_service_contract
 #: model:ir.model.fields,help:hr_employee_service_contract.field_hr_employee__service_start_date

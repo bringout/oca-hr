@@ -15,7 +15,7 @@ msgstr ""
 
 #. module: hr_employee_calendar_planning
 #. odoo-python
-#: code:addons/hr_employee_calendar_planning/models/resource_calendar.py
+#: code:addons/hr_employee_calendar_planning/models/resource_calendar.py:0
 #, python-format
 msgid ""
 "%(item_name)s is used in %(total_items)s employee(s) related to another "
@@ -26,7 +26,7 @@ msgstr ""
 
 #. module: hr_employee_calendar_planning
 #. odoo-python
-#: code:addons/hr_employee_calendar_planning/models/resource_calendar.py
+#: code:addons/hr_employee_calendar_planning/models/resource_calendar.py:0
 #, python-format
 msgid ""
 "%(item_name)s is used in %(total_items)s employee(s).You should change them "
@@ -38,7 +38,7 @@ msgstr ""
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_resource_calendar__active
 msgid "Active"
-msgstr "Aktivan"
+msgstr "Aktivno"
 
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_resource_calendar__auto_generate
@@ -47,7 +47,7 @@ msgstr "Automatski generiraj"
 
 #. module: hr_employee_calendar_planning
 #. odoo-python
-#: code:addons/hr_employee_calendar_planning/models/hr_employee.py
+#: code:addons/hr_employee_calendar_planning/models/hr_employee.py:0
 #, python-format
 msgid "Auto generated calendar for employee"
 msgstr "Automatski generirani kalendar za zaposlenika"
@@ -60,7 +60,7 @@ msgstr "Planiranje kalendara"
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar__company_id
 msgid "Company"
-msgstr "Preduzeće"
+msgstr "Kompanija"
 
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar__create_uid
@@ -80,7 +80,7 @@ msgstr "Datum završetka treba biti veći od datuma početka"
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: hr_employee_calendar_planning
 #: model:ir.model,name:hr_employee_calendar_planning.model_hr_employee
@@ -100,7 +100,7 @@ msgstr "Kalendari zaposlenika"
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar__date_end
 msgid "End Date"
-msgstr "Datum završetka"
+msgstr "Završni datum"
 
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar__id
@@ -119,7 +119,7 @@ msgstr ""
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar__write_uid
@@ -139,7 +139,7 @@ msgstr "Radno vrijeme resursa"
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar__date_start
 msgid "Start Date"
-msgstr "Početni datum"
+msgstr "Početni Datum"
 
 #. module: hr_employee_calendar_planning
 #: model:ir.model.fields,field_description:hr_employee_calendar_planning.field_hr_employee_calendar__calendar_id
@@ -148,7 +148,7 @@ msgstr "Radno Vrijeme"
 
 #. module: hr_employee_calendar_planning
 #. odoo-python
-#: code:addons/hr_employee_calendar_planning/models/hr_employee.py
+#: code:addons/hr_employee_calendar_planning/models/hr_employee.py:0
 #, python-format
 msgid "You can not create employees without any calendar."
 msgstr "Ne možete kreirati zaposlenike bez ikakvog kalendara."

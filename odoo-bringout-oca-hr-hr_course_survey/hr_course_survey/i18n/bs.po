@@ -112,7 +112,7 @@ msgstr "Anketa koju popunjava korisnik"
 
 #. module: hr_course_survey
 #. odoo-python
-#: code:addons/hr_course_survey/models/hr_course_attendee.py
+#: code:addons/hr_course_survey/models/hr_course_attendee.py:0
 #, python-format
 msgid ""
 "Survey cannot be sent because the previous survey has not been answered"
@@ -120,7 +120,7 @@ msgstr "Anketa se ne može poslati jer prethodna anketa nije odgovorena"
 
 #. module: hr_course_survey
 #. odoo-python
-#: code:addons/hr_course_survey/models/hr_course_attendee.py
+#: code:addons/hr_course_survey/models/hr_course_attendee.py:0
 #, python-format
 msgid "Survey cannot be sent if the user has not failed"
 msgstr "Anketa se ne može poslati ako korisnik nije pao"

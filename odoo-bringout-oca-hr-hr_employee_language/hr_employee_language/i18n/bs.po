@@ -46,7 +46,7 @@ msgstr "Baskijski / Euskara"
 #. module: hr_employee_language
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__bn_in
 msgid "Bengali / বাংলা"
-msgstr "Bengali / বাংলা"
+msgstr ""
 
 #. module: hr_employee_language
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__bs_ba
@@ -136,7 +136,7 @@ msgstr "Opis"
 #. module: hr_employee_language
 #: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__display_name
 msgid "Display Name"
-msgstr "Prikazani naziv"
+msgstr "Naziv za prikaz"
 
 #. module: hr_employee_language
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__nl_be
@@ -241,7 +241,7 @@ msgstr "Grupiši po"
 #. module: hr_employee_language
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__gu_in
 msgid "Gujarati / ગુજરાતી"
-msgstr "Gujarati / ગુજરાતી"
+msgstr ""
 
 #. module: hr_employee_language
 #: model:ir.model,name:hr_employee_language.model_hr_employee_language
@@ -256,7 +256,7 @@ msgstr "Hebrejski / עברית"
 #. module: hr_employee_language
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__hi_in
 msgid "Hindi / हिंदी"
-msgstr "Hindi / हिंदी"
+msgstr ""
 
 #. module: hr_employee_language
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__hu_hu
@@ -326,7 +326,7 @@ msgstr "Laoski / ພາສາລາວ"
 #. module: hr_employee_language
 #: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: hr_employee_language
 #: model:ir.model.fields,field_description:hr_employee_language.field_hr_employee_language__write_uid
@@ -531,12 +531,12 @@ msgstr "Švedski / Svenska"
 #. module: hr_employee_language
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__tl_ph
 msgid "Tagalog / Filipino"
-msgstr "Tagalog / Filipino"
+msgstr ""
 
 #. module: hr_employee_language
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__te_in
 msgid "Telugu / తెలుగు"
-msgstr "Telugu / తెలుగు"
+msgstr ""
 
 #. module: hr_employee_language
 #: model:ir.model.fields.selection,name:hr_employee_language.selection__hr_employee_language__name__th_th

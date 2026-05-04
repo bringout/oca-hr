@@ -47,7 +47,7 @@ msgstr "Prezime"
 # taken from hr.po
 #. module: hr_employee_firstname
 #. odoo-python
-#: code:addons/hr_employee_firstname/models/hr_employee.py
+#: code:addons/hr_employee_firstname/models/hr_employee.py:0
 #, python-format
 msgid "No name set."
 msgstr "Ime nije postavljeno."

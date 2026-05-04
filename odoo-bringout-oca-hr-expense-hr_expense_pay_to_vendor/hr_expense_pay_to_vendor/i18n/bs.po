@@ -25,7 +25,7 @@ msgstr "Izvještaj troška"
 
 #. module: hr_expense_pay_to_vendor
 #. odoo-python
-#: code:addons/hr_expense_pay_to_vendor/models/hr_expense.py
+#: code:addons/hr_expense_pay_to_vendor/models/hr_expense.py:0
 #, python-format
 msgid "Expenses must be paying to the same vendor."
 msgstr "Troškovi se moraju plaćati istom dobavljaču."

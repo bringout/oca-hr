@@ -52,7 +52,7 @@ msgstr "Datum rođenja"
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__display_name
 msgid "Display Name"
-msgstr "Naziv"
+msgstr "Naziv za prikaz"
 
 # taken from hr.po
 #. module: hr_employee_relative
@@ -108,7 +108,7 @@ msgstr "Zadatak"
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative____last_update
 msgid "Last Modified on"
-msgstr "Zadnje mijenjano"
+msgstr "Zadnja izmjena"
 
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__write_uid
@@ -128,7 +128,7 @@ msgstr "Muški"
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__name
 msgid "Name"
-msgstr "Naziv:"
+msgstr "Naziv"
 
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__notes
@@ -143,7 +143,7 @@ msgstr "Ostalo"
 #. module: hr_employee_relative
 #: model:hr.employee.relative.relation,name:hr_employee_relative.relation_parent
 msgid "Parent"
-msgstr "Nasljeđeni"
+msgstr "Nadređeno"
 
 #. module: hr_employee_relative
 #: model:ir.model.fields,field_description:hr_employee_relative.field_hr_employee_relative__partner_id

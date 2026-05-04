@@ -80,7 +80,7 @@ msgstr ""
 
 #. module: resource_multi_week_calendar
 #. odoo-python
-#: code:addons/resource_multi_week_calendar/models/resource_calendar.py
+#: code:addons/resource_multi_week_calendar/models/resource_calendar.py:0
 #, python-format
 msgid ""
 "Working Time '%(name)s' may not be the Main Working Time of another Working "

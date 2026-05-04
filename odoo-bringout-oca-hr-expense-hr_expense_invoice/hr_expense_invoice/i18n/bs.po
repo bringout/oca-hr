@@ -40,27 +40,27 @@ msgstr "Izvještaj troškova"
 #: model:ir.model.fields,field_description:hr_expense_invoice.field_account_bank_statement_line__expense_ids
 #, fuzzy
 msgid "Expenses"
-msgstr "Trošak"
+msgstr "Troškovi"
 
 # taken from hr.po
 #. module: hr_expense_invoice
 #: model:ir.model.fields,field_description:hr_expense_invoice.field_hr_expense_sheet__invoice_count
 #, fuzzy
 msgid "Invoice Count"
-msgstr "Račun"
+msgstr "Broj faktura"
 
 # taken from hr.po
 #. module: hr_expense_invoice
 #. odoo-python
-#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py
+#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
 #, fuzzy, python-format
 msgid "Invoices"
-msgstr "Račun"
+msgstr "Fakture"
 
 #. module: hr_expense_invoice
 #: model:ir.model,name:hr_expense_invoice.model_account_move
 msgid "Journal Entry"
-msgstr "Žurnal"
+msgstr "Stavka dnevnika"
 
 #. module: hr_expense_invoice
 #: model:ir.model,name:hr_expense_invoice.model_account_move_line
@@ -98,7 +98,7 @@ msgstr "Ulazni račun"
 
 #. module: hr_expense_invoice
 #. odoo-python
-#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py
+#: code:addons/hr_expense_invoice/models/hr_expense_sheet.py:0
 #, python-format
 msgid ""
 "Vendor bill amount mismatch!\n"
@@ -109,14 +109,14 @@ msgstr ""
 
 #. module: hr_expense_invoice
 #. odoo-python
-#: code:addons/hr_expense_invoice/models/hr_expense.py
+#: code:addons/hr_expense_invoice/models/hr_expense.py:0
 #, python-format
 msgid "Vendor bill state must be Posted"
 msgstr "Status računa dobavljača mora biti Knjižen"
 
 #. module: hr_expense_invoice
 #. odoo-python
-#: code:addons/hr_expense_invoice/models/account_move.py
+#: code:addons/hr_expense_invoice/models/account_move.py:0
 #, python-format
 msgid ""
 "You can't change the total amount, as there's an expense linked to this "
