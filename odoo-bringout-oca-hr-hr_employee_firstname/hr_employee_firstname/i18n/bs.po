@@ -21,7 +21,7 @@ msgstr "Obični zaposlenik"
 #. module: hr_employee_firstname
 #: model:ir.model,name:hr_employee_firstname.model_res_config_settings
 msgid "Config Settings"
-msgstr "Postavke"
+msgstr "Postavke konfiguracije"
 
 # taken from hr.po
 #. module: hr_employee_firstname

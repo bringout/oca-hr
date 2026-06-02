@@ -36,7 +36,7 @@ msgstr "Kreirano"
 #. module: hr_contract_multi_job
 #: model:ir.model.fields,field_description:hr_contract_multi_job.field_hr_contract_job__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: hr_contract_multi_job
 #: model:ir.model.fields,field_description:hr_contract_multi_job.field_hr_contract_job__id
@@ -76,17 +76,17 @@ msgstr "Zadaci"
 #. module: hr_contract_multi_job
 #: model:ir.model.fields,field_description:hr_contract_multi_job.field_hr_contract_job____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: hr_contract_multi_job
 #: model:ir.model.fields,field_description:hr_contract_multi_job.field_hr_contract_job__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: hr_contract_multi_job
 #: model:ir.model.fields,field_description:hr_contract_multi_job.field_hr_contract_job__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: hr_contract_multi_job
 #: model:ir.model.fields,field_description:hr_contract_multi_job.field_hr_contract_job__is_main_job

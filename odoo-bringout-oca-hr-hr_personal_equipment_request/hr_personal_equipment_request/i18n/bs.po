@@ -93,7 +93,7 @@ msgstr "Broj priloga"
 #. module: hr_personal_equipment_request
 #: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_request_form_view
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr "Odustani"
 
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields.selection,name:hr_personal_equipment_request.selection__hr_personal_equipment__state__cancelled
@@ -113,7 +113,7 @@ msgstr "Kreirano"
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__display_name
 msgid "Display Name"
-msgstr "Naziv za prikaz"
+msgstr "Naziv prikaza"
 
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields.selection,name:hr_personal_equipment_request.selection__hr_personal_equipment__state__draft
@@ -225,17 +225,17 @@ msgstr "Je pratilac"
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment____last_update
 msgid "Last Modified on"
-msgstr "Zadnja izmjena"
+msgstr "Zadnji put izmijenjeno"
 
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__write_uid
 msgid "Last Updated by"
-msgstr "Zadnji ažurirao"
+msgstr "Zadnji put ažurirao"
 
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__write_date
 msgid "Last Updated on"
-msgstr "Zadnje ažurirano"
+msgstr "Zadnji put ažurirano"
 
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__message_main_attachment_id
@@ -407,7 +407,7 @@ msgstr "Odobreno"
 #. module: hr_personal_equipment_request
 #: model_terms:ir.ui.view,arch_db:hr_personal_equipment_request.hr_personal_equipment_form_view
 msgid "Validate"
-msgstr "Ovjeri"
+msgstr "Potvrdi"
 
 #. module: hr_personal_equipment_request
 #: model:ir.model.fields,field_description:hr_personal_equipment_request.field_hr_personal_equipment__website_message_ids
