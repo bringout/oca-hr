@@ -111,3 +111,7 @@ dmypy.json
 *.tmp
 filestore/
 sessions/
+# hr_org_chart_overview vendors orgchart libs — wheel needs them tracked (overrides lib/)
+!odoo-bringout-oca-hr-hr_org_chart_overview/hr_org_chart_overview/static/src/lib/
+!odoo-bringout-oca-hr-hr_org_chart_overview/hr_org_chart_overview/static/src/lib/orgchart/
+!odoo-bringout-oca-hr-hr_org_chart_overview/hr_org_chart_overview/static/src/lib/orgchart/*.js
